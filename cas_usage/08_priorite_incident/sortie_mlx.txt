@@ -1,0 +1,14 @@
+Le site de paiement est inaccessible pour tous les clients depuis  → P1 (valeur 2.95 sur 0–3) ✓
+Panne fibre sur tout le quartier de Bellevue (environ 2 000 abonné → P1 (valeur 2.67 sur 0–3) ✓
+Le disque du serveur de sauvegarde est plein à 91 %, les sauvegard → P3 (valeur 1.18 sur 0–3) ✓
+L'imprimante du 2e étage n'imprime plus en couleur                 → P2 (valeur 1.53 sur 0–3) ✗ (attendu P4)
+L'application mobile est lente pour certains utilisateurs, mais fo → P3 (valeur 1.13 sur 0–3) ✓
+Le certificat HTTPS du site principal expire dans 2 jours          → P3 (valeur 1.68 sur 0–3) ✗ (attendu P2)
+Un salarié signale une faute de frappe sur la page « Contact »     → P3 (valeur 0.72 sur 0–3) ✗ (attendu P4)
+Les clients ne peuvent plus se connecter à leur espace client, err → P1 (valeur 2.91 sur 0–3) ✓
+La base de données répond deux fois plus lentement que d'habitude  → P2 (valeur 1.93 sur 0–3) ✓
+Demande d'ajout d'un nouvel écran pour le poste d'accueil          → P4 (valeur 0.30 sur 0–3) ✓
+
+7/10 priorités exactes, 9/10 à un niveau près
+
+[mlx, 4 s chargement compris]

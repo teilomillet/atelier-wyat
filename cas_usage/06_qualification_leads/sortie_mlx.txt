@@ -1,0 +1,15 @@
+Bonjour, nous sommes 45 salariés sur 3 sites et cherchons  appeler  → commercial, rappel sous 24 h         marge 0.76 ✓
+Je voudrais juste connaître vos tarifs, par curiosité.     ecarter  → archivé                              marge 0.82 ✗ (attendu informer)
+Directrice des achats d'un réseau de 12 agences : nous lan appeler  → commercial, rappel sous 24 h         marge 0.97 ✓
+Je suis étudiant et je fais un exposé sur les opérateurs t ecarter  → archivé                              marge 0.48 ✓
+Notre cabinet (8 personnes) a des coupures fréquentes avec informer → e-mail de présentation + relance à 1 mois marge 0.63 ✓
+Proposition de partenariat SEO : nous pouvons faire passer informer → e-mail de présentation + relance à 1 mois marge 0.25 ✗ (attendu ecarter)
+Gérant d'un restaurant, je veux une offre internet + télép appeler  → commercial, rappel sous 24 h         marge 0.66 ✓
+Je m'abonnerai peut-être un jour. Envoyez-moi votre newsle informer → e-mail de présentation + relance à 1 mois marge 0.95 ✓
+Nous ouvrons une deuxième boutique en mars et il nous faut informer → e-mail de présentation + relance à 1 mois marge 0.16 ✗ (attendu appeler)
+Bonjour, je suis commercial chez un éditeur de logiciels d informer → e-mail de présentation + relance à 1 mois marge 0.95 ✗ (attendu ecarter)
+Notre association compare les opérateurs pour l'an prochai informer → e-mail de présentation + relance à 1 mois marge 0.97 ✓
+
+ecriture : 6/8 demandes bien qualifiées ; verification : 1/3 demandes bien qualifiées
+
+[mlx, 4 s chargement compris]

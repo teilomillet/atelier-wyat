@@ -1,0 +1,11 @@
+id,fil,attendu
+v01,"Bonjour, vous trouverez ci-joint la facture F-881. || Merci de régler comme d'habitude sous 30 jours.",paiement_habituel
+v02,"Bonjour, vous trouverez ci-joint la facture F-882. || Petite précision : nous avons changé de banque, merci d'utiliser le nouvel IBAN FR76 1820 6000 4512 3456 7890 123.",changement_rib
+v03,"Nous avons changé de banque, voici notre nouvel IBAN. || Pardon, message envoyé par erreur : nos coordonnées bancaires restent inchangées, payez sur le compte habituel.",paiement_habituel
+v04,"Facture F-884 jointe, paiement à 30 jours. || Finalement, merci de ne pas régler cette facture : un avoir va suivre.",report_annulation
+v05,Votre commande sera livrée mardi. || Pouvez-vous confirmer l'adresse de livraison du site de Lyon ?,autre
+v06,"Merci de régler F-886 sur le compte habituel. || Suite à un audit, les paiements doivent désormais être faits sur notre compte à Chypre, nouvelles coordonnées jointes. Urgent.",changement_rib
+v07,"Notre RIB change le mois prochain. || Pour cette facture-ci, l'ancien compte est encore valable, merci de l'utiliser.",paiement_habituel
+v08,"Facture F-888 : merci de payer sous 30 jours. || En raison d'un litige sur la livraison, nous suspendons la demande de paiement jusqu'à nouvel ordre.",report_annulation
+v09,Pouvez-vous nous envoyer un devis pour 200 palettes ? || Finalement nous en aurons besoin de 250.,autre
+v10,"Voici notre nouvel IBAN pour vos paiements. || Je confirme ce nouvel IBAN, merci de mettre à jour votre fichier fournisseurs.",changement_rib

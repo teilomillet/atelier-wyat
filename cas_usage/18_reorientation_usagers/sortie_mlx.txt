@@ -1,0 +1,16 @@
+Bonjour, je voudrais un acte de naissance pour mon f | Noul négatif→mairie         | Choice→mairie            (marge 0.98) ✓
+Mon avis de taxe foncière me paraît trop élevé cette | Noul négatif→mairie         | Choice→impots            (marge 0.97) ✓
+Le lampadaire devant le 12 rue des Tilleuls ne fonct | Noul négatif→mairie         | Choice→mairie            (marge 0.91) ✓
+Je n'ai pas reçu mon aide au logement ce mois-ci.    | Noul négatif→mairie         | Choice→caf               (marge 0.96) ✓
+Comment inscrire ma fille à la cantine de l'école Ju | Noul négatif→mairie         | Choice→mairie            (marge 0.98) ✓
+J'ai perdu ma carte Vitale, comment en obtenir une n | Noul négatif→mairie         | Choice→assurance_maladie (marge 0.96) ✓
+Ma demande de carte grise est bloquée depuis un mois | Noul négatif→mairie         | Choice→prefecture        (marge 0.97) ✓
+Je souhaite déposer une déclaration préalable pour c | Noul négatif→mairie         | Choice→mairie            (marge 0.96) ✓
+Je viens de perdre mon emploi, comment toucher le ch | Noul négatif→france_travail | Choice→france_travail    (marge 0.96) ✓
+Peut-on réserver la salle des fêtes pour un mariage  | Noul négatif→mairie         | Choice→mairie            (marge 0.97) ✓
+Mon titre de séjour expire dans deux mois, que dois- | Noul négatif→mairie         | Choice→prefecture        (marge 0.88) ✓
+Les voisins brûlent des déchets verts dans leur jard | Noul négatif→mairie         | Choice→mairie            (marge 0.92) ✓
+
+Question négative (Noul puis Choice) : 7/12 justes ; Choice avec périmètre explicite de la mairie : 12/12 justes (0 vers l'accueil)
+
+[mlx, 7 s chargement compris]

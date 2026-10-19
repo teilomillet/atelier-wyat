@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Exemple de CI (à copier dans .github/workflows/ de VOTRE dépôt) : tests sans modèle à chaque push,
+# tests avec le vrai modèle sur demande. Rien n'est envoyé à un service d'IA externe.
+name: decisions
+on: [push, workflow_dispatch]
+jobs:
+  sans-modele:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -e ".[dev]"
+      - run: WYAT_PRECALCULE=1 .venv/bin/python -m pytest -q        # politiques + décisions pré-calculées
+  avec-modele:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: ./scripts/installer.sh                                  # PyTorch CPU + modèle (≈ 1,82 Go, mettez-le en cache)
+      - run: .venv/bin/python scripts/executer_cas_usage.py 13 14 20 21 && git diff --stat cas_usage/   # une sortie qui change = à relire

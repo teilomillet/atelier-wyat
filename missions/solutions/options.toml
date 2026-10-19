@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Solution possible de la mission 4 (= options de référence de l'atelier)
+question = "Quel service doit traiter ce message client ?"
+
+[options]
+facturation = "Facturation et paiements : montant d'une facture, débits ou prélèvements bancaires, remboursement, moyen ou date de paiement"
+technique = "Problème technique : internet, wifi, box, TV, réseau mobile, carte SIM ou application qui ne fonctionne pas correctement"
+resiliation = "Résiliation : le client veut mettre fin à son contrat, à une ligne ou à une option"
+livraison = "Livraison et retours : commande, colis, suivi, réception ou renvoi d'un équipement"
+autre = "Autre demande précise : changement d'offre, déménagement, coordonnées, réclamation sur le service client, information générale"

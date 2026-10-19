@@ -1,0 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Mission 5 : choisissez votre seuil (voir missions/5_repondre_a_claire/MISSION.md)
+seuil = 0.0
+erreurs_max_pour_100 = 5

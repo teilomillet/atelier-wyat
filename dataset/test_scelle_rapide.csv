@@ -1,0 +1,26 @@
+id,message,label,labels_acceptables,difficulte,note
+m066,Mon portable chauffe et la batterie se vide depuis que la 5G est activée,technique,technique,facile,
+m092,vous pouvez couper mon abonnement à la fin du mois merci,resiliation,resiliation,facile,« couper » = résilier
+m113,Commande n°CMD-77120 bloquée en 'préparation' depuis 5 jours,livraison,livraison,facile,
+m014,"hors forfait de 37 euros pour des appels vers la Belgique?? j'étais en vacances, c'est censé être inclus dans l'UE",facturation,facturation,facile,
+m153,"Je n'arrive pas à joindre le service client par téléphone, 45 min d'attente à chaque fois",autre,autre,facile,
+m102,Numéro de suivi svp pour ma nouvelle box,livraison,livraison,facile,
+m029,"Ma carte bancaire a expiré, comment mettre à jour le moyen de paiement ?",facturation,facturation,facile,
+m021,On m'a facturé des frais de résiliation alors que je suis parti à cause de vos coupures à répétition,facturation,facturation|resiliation,multi,frais contestés après départ
+m062,Est-ce que la box est compatible wifi 7 ?,technique,technique|autre,ambigu,question d'information
+m115,"Bonjour, livraison prévue aujourd'hui mais toujours rien à 19h. Le livreur passe encore ?",livraison,livraison,facile,
+m044,"appels coupés au bout de 30 secondes à chaque fois, c insupportable",technique,technique,facile,informel
+m147,"J'ai un litige avec vous depuis 3 mois, je vais saisir le médiateur des communications électroniques.",autre,autre,ambigu,contentieux
+m139,bonjour,autre,autre,ambigu,aucune intention
+m081,Je veux arrêter l'option TV mais garder internet,resiliation,resiliation|autre,ambigu,résiliation d'une option seulement
+m012,"Bonjour, je souhaiterais un échéancier pour régler ma facture de 180 € en plusieurs fois, je suis en difficulté ce mois-ci.",facturation,facturation,facile,
+m065,la messagerie vocale me demande un code que je ne connais pas,technique,technique,facile,
+m141,"Le numéro qui m'appelle 10 fois par jour se présente comme Lumio, c'est vous ?",autre,autre,facile,
+m097,Annulez tout. Je ne veux plus entendre parler de Lumio.,resiliation,resiliation,facile,
+m060,"Le replay ne fonctionne plus sur le décodeur, message erreur E-204",technique,technique,facile,
+m015,Pouvez-vous me renvoyer une facture au nom de ma société avec le numéro de TVA ? C'est pour ma compta.,facturation,facturation,facile,
+m017,"Je ne comprends rien à ma facture, il y a une ligne 'régularisation' de -12 € puis +18 €",facturation,facturation,facile,
+m069,Netflix ne se lance plus sur le décodeur,technique,technique,facile,
+m112,"Vous m'avez envoyé 2 box, je fais quoi de la deuxième ?",livraison,livraison,facile,
+m093,"Je résilie suite à votre hausse de prix, conformément à mon droit de résiliation sans frais.",resiliation,resiliation|facturation,multi,
+m110,Il manque le câble d'alimentation dans le carton de la box,livraison,livraison|technique,ambigu,

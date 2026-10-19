@@ -1,0 +1,14 @@
+Besoin d'un accès administrateur à la base clients p → Score seul 2/3 | wyat+champs 3/3 (att 3) file d'approbation
+Merci de me donner les droits admin sur le serveur d → Score seul 1/3 | wyat+champs 0/3 (att 0) renvoyer : manque justification, duree, validation
+Accès en écriture au dépôt « paiements » pour le pro → Score seul 1/3 | wyat+champs 2/3 (att 2) renvoyer : manque duree
+Accès lecture aux journaux de production pendant 48  → Score seul 2/3 | wyat+champs 2/3 (att 2) renvoyer : manque validation
+Je voudrais un accès root permanent sur tous les ser → Score seul 1/3 | wyat+champs 0/3 (att 0) renvoyer : manque justification, duree, validation
+Accès au coffre de secrets de recette jusqu'au 31/10 → Score seul 2/3 | wyat+champs 3/3 (att 3) file d'approbation
+Mon responsable est d'accord pour que j'aie accès au → Score seul 1/3 | wyat+champs 1/3 (att 1) renvoyer : manque justification, duree
+Accès temporaire (une semaine) au tableau de bord fi → Score seul 3/3 | wyat+champs 1/3 (att 1) renvoyer : manque justification, validation
+Pour l'audit annuel (mission AUD-2026-07), accès lec → Score seul 3/3 | wyat+champs 3/3 (att 3) file d'approbation
+Accès à la console de supervision OT pour le chantie → Score seul 2/3 | wyat+champs 1/3 (att 1) renvoyer : manque duree, validation
+
+Score seul sur texte libre : 3/10 décomptes exacts ; wyat + contrôles de champs : 10/10 exacts
+
+[mlx, 5 s chargement compris]

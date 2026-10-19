@@ -1,0 +1,16 @@
+Facture n° F-2026-0912 — Bureau Plus — 1 240,00 € TTC — échéan → comptabilite  marge 0.99 ✓
+Arrêt de travail de M. Leroy du 12 au 19 octobre, à transmettr → rh            marge 0.98 ✓
+Mise en demeure : nous vous mettons en demeure de cesser l'uti → juridique     marge 0.96 ✓
+Devis n° 3381 : 40 écrans 27 pouces, valable 30 jours, livrais → achats        marge 0.99 ✓
+Mon ordinateur portable ne démarre plus depuis la mise à jour  → informatique  marge 0.96 ✓
+Relance : notre facture du 3 septembre reste impayée à ce jour → comptabilite  marge 0.95 ✓
+Demande de congés payés du 22 au 31 décembre — signée par le r → rh            marge 0.95 ✓
+Avenant n° 2 au contrat de prestation : modification de la dur → juridique     marge 0.97 ✓
+Proposition commerciale pour le renouvellement de la flotte de → achats        marge 0.76 ✓
+Le VPN refuse ma connexion depuis l'hôtel                      → informatique  marge 0.99 ✓
+Attestation URSSAF de vigilance demandée par notre client pour → comptabilite  marge 0.20 ✓
+Candidature spontanée pour un poste de technicien fibre, CV en → rh            marge 0.93 ✓
+
+12/12 documents bien routés
+
+[torch, 18 s chargement compris]

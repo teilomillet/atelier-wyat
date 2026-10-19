@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Solution possible de la mission 2
+question = "Quel service doit traiter ce message client ?"
+escalade = "Marge inférieure à 0,5, ou message qui parle de décès, de justice ou de menace : un conseiller lit le message."
+[options]
+facturation = "Facturation et paiements : montant d'une facture, débits ou prélèvements bancaires, remboursement, moyen ou date de paiement"
+technique = "Problème technique : internet, wifi, box, TV, réseau mobile, carte SIM ou application qui ne fonctionne pas"
+resiliation = "Résiliation : le client veut mettre fin à son contrat, à une ligne ou à une option"
+livraison = "Livraison et retours : commande, colis, suivi, réception ou renvoi d'un équipement"
+autre = "Autre demande précise : changement d'offre, déménagement, coordonnées, réclamation, information générale"
+[actions]
+facturation = "File Compta, réponse sous 48 h"
+technique = "File Support technique, diagnostic à distance"
+resiliation = "File Fidélisation, rappel sous 24 h"
+livraison = "File Logistique, suivi transporteur"
+autre = "File Accueil, tri manuel"

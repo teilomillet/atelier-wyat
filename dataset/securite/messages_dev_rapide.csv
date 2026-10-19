@@ -1,0 +1,11 @@
+id,canal,expediteur,message,label,labels_acceptables,difficulte,note
+l14,SMS,MaBanque,Rappel : nous ne vous demanderons jamais vos identifiants par SMS ou par téléphone. Restez vigilant.,legitime,legitime,piege,message de prévention
+l16,e-mail,c.durand@lumio.fr,Peux-tu préparer le point budget pour la réunion de jeudi ? Merci !,legitime,legitime,facile,vraie direction
+l18,SMS,Chronopost,Votre colis est disponible au relais Tabac de la Gare. Code de retrait : 4821.,legitime,legitime,facile,
+l20,e-mail,news@ikea.fr,"Les soldes commencent : -30 % sur la literie, seulement jusqu'à dimanche !",legitime,legitime,piege,marketing urgent mais réel
+l21,SMS,MaBanque,Votre carte bancaire expire le mois prochain. La nouvelle carte vous sera envoyée automatiquement.,legitime,legitime,ambigu,
+p01,SMS,+33 7 56 12 84 90,"Colissimo : votre colis est en attente, des frais de 1,99 € sont à régler : colissimo-suivi-fr.info/r/8KQ",frauduleux,frauduleux,facile,faux colis
+p09,e-mail,compta@fourniture-lumi0.com,"Suite à un changement de banque, merci d'utiliser désormais le nouvel IBAN ci-joint pour régler nos factures en attente.",frauduleux,frauduleux,ambigu,fraude au changement de RIB
+p12,SMS,+33 6 71 90 22 58,"BNP : un nouvel appareil a été ajouté à votre compte. Si ce n'est pas vous, annulez ici : bnp-securite-client.com",frauduleux,frauduleux,facile,
+p13,e-mail,promo@cadeaux-gagnants.top,Félicitations ! Vous avez été tiré au sort pour gagner un iPhone 16. Répondez au questionnaire et payez seulement les frais de port.,frauduleux,frauduleux,facile,
+p25,e-mail,securite@paypa1-support.com,Urgent : vérifiez votre compte sous 24 h. Cliquez ici pour éviter la suspension.,frauduleux,frauduleux,facile,paypa1

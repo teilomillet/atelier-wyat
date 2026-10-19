@@ -1,0 +1,31 @@
+id,canal,expediteur,message,label,labels_acceptables,difficulte,note
+l01,SMS,LUMIO,"Votre facture d'octobre (29,99 €) est disponible dans votre espace client. Aucune action requise, prélèvement le 05/11.",legitime,legitime,facile,
+l02,e-mail,noreply@notification.colissimo.fr,Votre colis 6A12345678901 sera livré demain entre 9 h et 13 h.,legitime,legitime,facile,
+l03,SMS,MaBanque,Votre virement de 120 € vers M. MARTIN a bien été effectué.,legitime,legitime,facile,
+l04,e-mail,julie.bernard@lumio.fr,"Salut, je t'envoie le compte rendu de la réunion de mardi en pièce jointe, dis-moi si j'ai oublié un point.",legitime,legitime,facile,collègue
+l07,SMS,Doctolib,"Rappel : RDV demain à 10 h 30 avec le Dr Martin. Pour annuler, utilisez l'application.",legitime,legitime,facile,
+l08,e-mail,noreply@sncf-connect.com,Votre e-billet Paris – Lyon du 12/11 est disponible dans l'application SNCF Connect.,legitime,legitime,facile,
+l09,e-mail,rh@lumio.fr,La campagne d'entretiens annuels démarre lundi. Le formulaire est disponible sur l'intranet.,legitime,legitime,facile,
+l10,SMS,Maman,"Coucou, on arrive vers 19 h dimanche, je ramène le dessert.",legitime,legitime,facile,
+l11,e-mail,facturation@fournisseur-habituel.fr,"Veuillez trouver ci-joint notre facture n° 2026-114 de 1 200 €, payable à 30 jours sur le RIB habituel.",legitime,legitime,ambigu,"facture, pas de changement de RIB"
+l13,SMS,LUMIO,Votre code de vérification est 482913. Ne le communiquez à personne : nos conseillers ne vous le demanderont jamais.,legitime,legitime,piege,parle de code
+l15,e-mail,messages@leboncoin.fr,Vous avez reçu un nouveau message concernant votre annonce « Vélo de ville ».,legitime,legitime,facile,
+l17,e-mail,ne-pas-repondre@assurance-maladie.fr,Un remboursement de 25 € a été effectué sur votre compte bancaire.,legitime,legitime,facile,
+l19,e-mail,dsi@lumio.fr,Maintenance du VPN samedi de 8 h à 12 h. Aucune action n'est nécessaire de votre part.,legitime,legitime,facile,
+l22,e-mail,marc.petit@lumio.fr,"URGENT : le client attend le devis avant midi, tu peux me l'envoyer ?",legitime,legitime,piege,urgence interne réelle
+p02,e-mail,service@amel1-assurance.fr,Votre carte Vitale doit être renouvelée. Remplissez le formulaire avant 48 h pour conserver vos droits.,frauduleux,frauduleux,facile,ameli imité
+p03,SMS,+33 6 44 21 09 77,"Opération suspecte de 980 € sur votre compte. Si ce n'est pas vous, votre conseiller va vous appeler pour sécuriser vos fonds.",frauduleux,frauduleux,ambigu,faux conseiller
+p05,e-mail,remboursement@impots-gouv-fr.com,"Vous avez droit à un remboursement de 248,35 €. Confirmez vos coordonnées bancaires sur notre portail sécurisé.",frauduleux,frauduleux,facile,
+p06,e-mail,billing@netflix-account-support.co,Votre paiement a échoué. Mettez à jour vos informations de carte sous 24 h pour éviter la suspension de votre compte.,frauduleux,frauduleux,facile,
+p07,SMS,+33 7 81 55 30 12,"Coucou maman c'est moi, j'ai cassé mon téléphone, c'est mon nouveau numéro. Tu peux m'envoyer 400 € par virement instantané ? C'est urgent je t'explique.",frauduleux,frauduleux,facile,« coucou maman »
+p08,e-mail,it-support@micros0ft-office.com,Votre mot de passe Office 365 expire aujourd'hui. Cliquez ici pour conserver le même mot de passe.,frauduleux,frauduleux,facile,0 au lieu de o
+p15,SMS,+33 6 88 01 77 45,"Bonjour, nous recrutons pour du télétravail, 300 €/jour sans expérience. Contactez notre recruteuse sur WhatsApp.",frauduleux,frauduleux,ambigu,faux emploi
+p16,e-mail,paiement@leboncoin-securise.net,L'acheteur a payé votre article. Cliquez pour saisir votre carte bancaire et recevoir l'argent.,frauduleux,frauduleux,facile,
+p17,SMS,+33 9 70 80 90 11,"Crédit Agricole : pour annuler le virement frauduleux, communiquez le code reçu par SMS au conseiller qui va vous appeler.",frauduleux,frauduleux,ambigu,vishing
+p18,e-mail,remboursement@edf-clients.info,"Vous avez un trop-perçu de 86,40 €. Saisissez vos coordonnées bancaires pour être remboursé sous 24 h.",frauduleux,frauduleux,facile,
+p19,e-mail,facturation@groupe-dlx.biz,"Bonjour, vous trouverez en pièce jointe la facture impayée. Merci d'ouvrir le fichier Facture_impayee.zip et de régler rapidement.",frauduleux,frauduleux,ambigu,pièce jointe piégée
+p21,e-mail,anonyme8812@proton.me,J'ai piraté votre webcam et j'ai des vidéos. Envoyez 500 € en bitcoin sous 48 h ou je les diffuse à vos contacts.,frauduleux,frauduleux,facile,sextorsion
+p22,e-mail,notification@docusign-documents.top,Un document confidentiel vous attend. Connectez-vous avec vos identifiants Microsoft pour le consulter.,frauduleux,frauduleux,facile,
+p23,SMS,+33 6 19 73 52 04,C'est Philippe (directeur). Tu peux m'acheter 5 cartes cadeaux Google Play de 100 € et m'envoyer les codes en photo ? Je te rembourse demain.,frauduleux,frauduleux,facile,
+p24,SMS,+33 7 66 43 21 87,Chronopost : livraison échouée. Reprogrammez votre livraison : bit.ly/3xQ9chrono,frauduleux,frauduleux,ambigu,lien raccourci
+p26,e-mail,rh@lumio-paie.com,Mise à jour de vos coordonnées bancaires pour la paie de ce mois : connectez-vous avec vos identifiants professionnels avant vendredi.,frauduleux,frauduleux,piege,domaine proche du vrai

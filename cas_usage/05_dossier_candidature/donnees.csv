@@ -1,0 +1,10 @@
+id,candidature,poste,disponibilite,cv,jeu
+c1,"Bonjour, je postule au poste de technicien fibre (réf. TF-12). Je suis disponible à partir du 1er décembre. Vous trouverez mon CV en pièce jointe. Cordialement, Yanis",oui,oui,oui,ecriture
+c2,"Bonjour, je suis très motivé pour rejoindre votre équipe ! Mon CV est joint. Bien à vous, Chloé",non,non,oui,ecriture
+c3,"Madame, Monsieur, je souhaite candidater à l'offre de conseiller clientèle à Rennes. Je peux commencer immédiatement. Je n'ai pas encore de CV à jour, je peux vous l'envoyer la semaine prochaine.",oui,oui,non,ecriture
+c4,"Bonjour, candidature pour le poste de développeuse back-end. CV ci-joint. Préavis de 2 mois chez mon employeur actuel.",oui,oui,oui,ecriture
+c5,"Salut, c'est pour le job de cet été, je suis dispo en juillet et août. Mathis",non,oui,non,ecriture
+c6,"Bonjour, suite à notre échange au salon, voici mon CV pour le poste d'alternant comptable. Je reste à votre disposition pour un entretien.",oui,non,oui,ecriture
+c7,"Bonjour, je réponds à votre annonce de technicienne support (réf. TS-04). Libre dès le 15 janvier. CV et lettre en pièces jointes.",oui,oui,oui,verification
+c8,"Bonjour, j'aimerais beaucoup travailler chez vous, je peux commencer lundi. Merci de me recontacter.",non,oui,non,verification
+c9,Candidature au poste de chef de projet déploiement fibre. Je vous transmets mon CV ci-joint.,oui,non,oui,verification

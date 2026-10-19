@@ -1,0 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Mission 1 : écrivez au moins 3 messages (voir missions/1_reflexe_de_karim/MISSION.md)
+[[messages]]
+texte = "on m'a prélevé deux fois ce mois-ci"
+attendu = "facturation"

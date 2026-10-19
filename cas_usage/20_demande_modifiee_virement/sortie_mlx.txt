@@ -1,0 +1,14 @@
+Merci de régler comme d'habitude sous 30 jours.          → paiement_habituel  marge 0.99 traitement normal ✓
+Petite précision : nous avons changé de banque, merci d' → changement_rib     marge 0.98 CONTRE-APPEL au numéro connu avant tout paiement ✓
+Pardon, message envoyé par erreur : nos coordonnées banc → paiement_habituel  marge 0.93 traitement normal ✓
+Finalement, merci de ne pas régler cette facture : un av → report_annulation  marge 0.99 traitement normal ✓
+Pouvez-vous confirmer l'adresse de livraison du site de  → autre              marge 0.81 traitement normal ✓
+Suite à un audit, les paiements doivent désormais être f → changement_rib     marge 0.74 CONTRE-APPEL au numéro connu avant tout paiement ✓
+Pour cette facture-ci, l'ancien compte est encore valabl → paiement_habituel  marge 0.94 traitement normal ✓
+En raison d'un litige sur la livraison, nous suspendons  → report_annulation  marge 0.99 traitement normal ✓
+Finalement nous en aurons besoin de 250.                 → autre              marge 0.77 traitement normal ✓
+Je confirme ce nouvel IBAN, merci de mettre à jour votre → changement_rib     marge 0.98 CONTRE-APPEL au numéro connu avant tout paiement ✓
+
+10/10 demandes actuelles identifiées
+
+[mlx, 4 s chargement compris]

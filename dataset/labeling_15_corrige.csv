@@ -1,0 +1,16 @@
+numero,id,message,label,labels_acceptables,difficulte,note
+1,m011,Erreur sur ma facture : vous facturez 2 lignes mobiles alors que j'en ai qu'une.,facturation,facturation,facile,
+2,m020,"Remboursement des frais de mise en service svp, c'était offert normalement",facturation,facturation,facile,
+3,m023,Merci de m'envoyer le détail des communications du mois de septembre.,facturation,facturation,facile,
+4,m046,"Le wifi ne passe pas à l'étage, vous avez des répéteurs ?",technique,technique|autre,ambigu,problème + question commerciale
+5,m050,l'appli Lumio plante dès que j'ouvre l'onglet factures,technique,technique|facturation,piege,mot « factures » mais c'est un bug
+6,m059,"Mon internet coupe tous les soirs vers 21h, je vais résilier si ça continue",technique,technique|resiliation,multi,menace conditionnelle
+7,m079,"J'ai trouvé moins cher ailleurs, je veux partir. Quels sont les frais ?",resiliation,resiliation|facturation,multi,
+8,m089,"Je veux annuler ma commande passée hier, j'ai changé d'avis",resiliation,resiliation|livraison,ambigu,rétractation d'une commande
+9,m099,"Bonjour, ma box internet ne me sert plus depuis que j'ai la 5G, comment arrêter ?",resiliation,resiliation,facile,
+10,m106,Comment je renvoie l'ancien décodeur ? vous m'avez envoyé une étiquette ?,livraison,livraison,facile,
+11,m111,"Je ne serai pas là jeudi pour la livraison, on peut décaler ?",livraison,livraison,facile,
+12,m118,Est-ce que vous livrez en Corse ? et combien de temps ?,livraison,livraison,facile,
+13,m138,Je voudrais ajouter une ligne mobile pour ma fille,autre,autre,facile,
+14,m150,Est-ce que je peux mettre mon abonnement en pause pendant 6 mois à l'étranger au lieu de résilier ?,autre,autre|resiliation,piege,mot « résilier » mais demande = suspension
+15,m155,lol,autre,autre,ambigu,bruit

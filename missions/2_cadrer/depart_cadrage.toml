@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Mission 2 : complétez ce cadrage (voir missions/2_cadrer/MISSION.md)
+question = "Quel service doit traiter ce message client ?"
+escalade = ""
+[options]
+facturation = "Facturation"
+technique = "Technique"
+autre = "Autre, pas sûr, tout le reste"
+[actions]
+facturation = "File Compta"

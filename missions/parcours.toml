@@ -1,0 +1,96 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+#
+# Le parcours de l'atelier, lisible par une personne ET par un assistant IA qui anime (voir AGENTS.md).
+# Chaque niveau : ce qu'on comprend, la version native, la version wyat, les fichiers, comment vérifier.
+# Les commandes « atelier … » supposent l'environnement activé (source .venv/bin/activate) ; sinon : .venv/bin/atelier …
+# tests/test_atelier.py vérifie que chaque fichier cité existe.
+
+[atelier]
+titre = "Modèles de décision avec wyat"
+tronc_minutes = 120
+formats = ["2 h : tronc commun (niveaux 1 à 4)", "demi-journée : tronc + 1 piste", "journée : tronc + 3 pistes"]
+guide_humain = "docs/guide_animateur.md"
+
+# ------------------------------------------------------------------ tronc commun
+[[niveau]]
+numero = 1
+titre = "Une décision : natif contre wyat"
+minutes = 15
+comprendre = ["un modèle de décision CHOISIT parmi des options fermées", "la marge = probabilité du 1er − celle du 2e"]
+natif = "une règle par mots-clés (exemples/00_natif_contre_wyat.py : 45/63 sur dev, ne dit jamais « je ne sais pas »)"
+avec_wyat = "Request.choice + marge : sur dev, 55/63 justes contre 45/63 pour les mots-clés, avec une marge par décision"
+fichiers = ["notebooks/bloc1_demo.ipynb", "exemples/00_natif_contre_wyat.py", "exemples/01_une_decision_wyat.py", "missions/1_premiere_decision/MISSION.md"]
+guide = "docs/guide_animateur.md, section « Bloc 1 »"
+verifier = "atelier verifier 1"
+
+[[niveau]]
+numero = 2
+titre = "Cadrer : le libellé est la définition"
+minutes = 25
+comprendre = ["le libellé d'une option est sa définition", "une action par option", "Choice, Noul (oui/non), Score (échelle)", "une option fourre-tout aspire tout"]
+natif = "une étiquette d'un mot par service, ou une question négative floue"
+avec_wyat = "des options qui décrivent ce qu'elles couvrent, avec les mots des clients"
+fichiers = ["docs/fiches/fiche_bloc2_cadrer.md", "missions/2_cadrer/MISSION.md", "notebooks/bloc4_lancer_wyat.ipynb", "missions/4_reparer_option/MISSION.md"]
+guide = "docs/guide_animateur.md, sections « Bloc 2 » et « Bloc 4 »"
+verifier = "atelier verifier 2 ; atelier verifier 4"
+
+[[niveau]]
+numero = 3
+titre = "Mesurer : accord inter-annotateurs et données"
+minutes = 40
+comprendre = ["accord inter-annotateurs (κ) : la vérité terrain se construit", "dev pour régler, test scellé pour juger", "intervalle de confiance", "calibration : ajustée sur dev, confirmée sur le test"]
+natif = "« ça a l'air de marcher » sur trois exemples"
+avec_wyat = "exactitude avec intervalle, calibration (ECE), courbe automatisation / erreurs"
+fichiers = ["docs/fiches/fiche_bloc3_annotation.md", "notebooks/bloc3_accord_annotateurs.ipynb", "missions/3_accord/MISSION.md", "exemples/03_evaluer_un_jeu.py"]
+guide = "docs/guide_animateur.md, section « Bloc 3 » ; « Bloc 5 » pour les concepts seulement (pas ses chiffres du test)"
+verifier = "atelier verifier 3 ; atelier evaluer (dev : exactitude, intervalle de confiance, ECE)"
+
+[[niveau]]
+numero = 4
+titre = "Politique, abstention et humain dans la boucle"
+minutes = 40
+comprendre = ["un seuil de marge : sous le seuil, un humain décide", "on choisit le seuil selon le coût d'une erreur", "le test scellé s'ouvre une fois : dev flatte", "chaque décision se garde (to_dict) pour l'audit"]
+natif = "tout automatiser sans filet, ou tout relire à la main"
+avec_wyat = "automatiser ce qui est sûr, passer la main sur le reste, avec un budget d'erreurs explicite"
+fichiers = ["missions/5_politique_de_decision/MISSION.md", "exemples/04_balayer_les_seuils.py", "notebooks/bloc5_mesurer_et_choisir.ipynb", "docs/fiches/fiche_entreprise.md"]
+guide = "docs/guide_animateur.md, sections « Bloc 5 » et « Bloc 7 »"
+verifier = "atelier seuils (dev) ; atelier verifier 5 ; options et seuil figés, une seule fois : ATELIER_ANIMATEUR=1 atelier verifier 4 --final puis verifier 5 --final"
+apres_le_final = ["notebooks/bloc5_mesurer_et_choisir.ipynb"]   # le débrief : il ouvre le test scellé dès sa section 1
+
+# ------------------------------------------------------------------ pistes (1 h 30 chacune, après le tronc)
+[[piste]]
+id = "securite"
+titre = "Sécurité (SOC, IAM, agents, réseau isolé)"
+pour = "RSSI, SOC, équipes sécurité, défense et conformité"
+comprendre = ["coût asymétrique : une arnaque ou commande dangereuse manquée coûte plus qu'une fausse alerte", "défense en profondeur : règles + wyat + vérifications + humain", "les limites : injection subtile, priorité tassée vers le milieu, compréhension de code sous le hasard"]
+fichiers = ["notebooks/bloc6_securite_et_limites.ipynb", "missions/6_garde_fou_securite/MISSION.md", "cas_usage/12_garde_et_arnaques/cas.py", "cas_usage/13_hameconnage_mails/cas.py", "cas_usage/14_appels_outils_agent/cas.py", "cas_usage/15_garde_code_genere/cas.py", "cas_usage/16_injection_entrees/cas.py", "cas_usage/17_priorite_alertes_securite/cas.py", "cas_usage/19_conditions_acces_privilegie/cas.py", "cas_usage/25_documents_hors_ligne/cas.py", "exemples/05_garde_fou.py", "exemples/06_arnaques.py", "integrations/garde_http.py", "integrations/hook_claude_code.py", "docs/deploiement_hors_ligne.md"]
+guide = "docs/guide_animateur.md, section « Bloc 6 »"
+verifier = "atelier verifier 6 ; réglage figé, une seule fois : ATELIER_ANIMATEUR=1 atelier verifier 6 --final"
+apres_le_final = ["notebooks/bloc6_securite_et_limites.ipynb"]   # sections 1 et 2 avant ; à partir de la section 3, elles ouvrent le test scellé
+
+[[piste]]
+id = "developpeurs"
+titre = "Développeurs et intégration"
+pour = "équipes produit, data, plateforme, ingénierie IA"
+comprendre = ["l'API wyat : Request.choice / noul / score, decide, to_dict", "brancher : pandas, lot cron, service web, garde-fou HTTP, hook d'agent, CI", "les mots au modèle, les chiffres, formats et listes au code", "où ça ne marche pas : piloter un agent, prédire la sortie d'un code (CRUXEval)"]
+fichiers = ["docs/integration_dev.md", "docs/benchmarks.md", "exemples/00_natif_contre_wyat.py", "exemples/01_une_decision_wyat.py", "exemples/03_evaluer_un_jeu.py", "integrations/garde_http.py", "integrations/pandas_tri.py", "integrations/lot_cron.sh", "integrations/webhook_tickets.py", "integrations/hook_claude_code.py", "cas_usage/01_tri_support/cas.py", "cas_usage/03_notes_de_frais/cas.py", "cas_usage/10_rag_source/cas.py", "cas_usage/11_boucle_agent/cas.py", "cas_usage/14_appels_outils_agent/cas.py", "cas_usage/15_garde_code_genere/cas.py"]
+guide = "docs/integration_dev.md et docs/fiches/fiche_entreprise.md"
+verifier = "python cas_usage/<cas>/cas.py, puis changer une option et relancer"
+
+[[piste]]
+id = "decideurs"
+titre = "Décideurs, RH, conformité et métiers"
+pour = "directions métier, RH, juridique, achats, conformité, DPO (banque, secteur public, énergie, luxe, défense)"
+comprendre = ["quelles décisions confier à un modèle, lesquelles jamais (pas de tri des personnes en RH)", "le coût d'une erreur fixe le seuil", "gouvernance : test scellé, trace JSONL, dérive, RGPD, AI Act, licence des poids", "lire un résultat honnêtement : dénominateurs, benchmarks, ce qui ne marche pas"]
+fichiers = ["docs/conformite.md", "docs/licence_du_modele.md", "docs/benchmarks.md", "missions/7_votre_cas/MISSION.md", "cas_usage/05_dossier_candidature/cas.py", "cas_usage/03_notes_de_frais/cas.py", "cas_usage/04_clauses_contrat/cas.py", "cas_usage/18_reorientation_usagers/cas.py", "cas_usage/20_demande_modifiee_virement/cas.py", "cas_usage/21_alertes_kyc/cas.py", "cas_usage/22_maintenance_et_hse/cas.py", "cas_usage/23_avis_clients_aspects/cas.py", "cas_usage/24_surveillance_annonces/cas.py", "cas_usage/26_synthese_consultation/cas.py", "docs/fiches/fiche_entreprise.md"]
+guide = "docs/guide_animateur.md, section « Bloc 7 », docs/conformite.md et docs/fiches/fiche_entreprise.md"
+verifier = "choisir un cas de son secteur, changer une option pour son organisation, relancer, observer ce qui a changé"
+
+# ------------------------------------------------------------------ fichiers réservés jusqu'au moment prévu
+[reserve]
+# Un assistant qui anime ne les lit pas, ne les affiche pas, ne les résume pas avant l'étape indiquée.
+jusqu_au_final = ["dataset/tous_les_messages.csv", "dataset/securite/tous_commandes.csv", "dataset/securite/tous_messages.csv", "scripts/construire_dataset.py", "scripts/construire_dataset_securite.py", "dataset/test_scelle.csv", "dataset/test_scelle_rapide.csv", "dataset/securite/commandes_test_scelle.csv", "dataset/securite/commandes_test_scelle_rapide.csv", "dataset/securite/messages_test_scelle.csv", "dataset/securite/messages_test_scelle_rapide.csv"]
+apres_la_mission = ["missions/solutions/", "dataset/labeling_15_corrige.csv"]
+# Ouvrent aussi le test : les commandes « --jeu test », les copies exécutées et les chiffres « test » de docs/guide_animateur.md (voir AGENTS.md §5).
+chiffres_du_test = ["notebooks/executes/"]

@@ -1,0 +1,21 @@
+id,message,label,labels_acceptables,difficulte,note
+m128,colis pas reçu,livraison,livraison,facile,très court
+m076,"Je souhaite résilier mon abonnement fibre, je déménage à l'étranger.",resiliation,resiliation,facile,
+m068,"Le contrôle parental ne bloque rien du tout, mes enfants accèdent à tout",technique,technique,facile,
+m073,"Mon téléphone reçu hier ne s'allume pas du tout, sorti du carton",technique,technique|livraison,ambigu,produit défectueux à la livraison
+m008,Pourquoi ma facture augmente de 3 € à partir de janvier ? On m'avait dit prix bloqué 2 ans.,facturation,facturation,facile,
+m005,"vous m'avez débité 9,99€ pour une option streaming que j'ai jamais demandée",facturation,facturation,facile,
+m146,"SVP rappelez-moi au 06 12 34 56 78, c'est urgent",autre,autre,ambigu,aucun sujet : à escalader
+m041,Le décodeur TV reste bloqué sur l'écran de démarrage,technique,technique,facile,
+m035,"Je suis malvoyant, existe-t-il des factures en gros caractères ?",facturation,facturation|autre,ambigu,
+m013,"Le prélèvement de ce mois n'a pas eu lieu, est-ce normal ? Je ne veux pas avoir de frais de retard.",facturation,facturation,facile,
+m070,"jarrive pa a me conecter au wifi avec mon nouvo ordi, ca di mot de passe incorect",technique,technique,facile,fautes
+m084,"Lettre de résiliation envoyée en recommandé le 2 octobre, toujours aucune confirmation",resiliation,resiliation,facile,
+m095,"Suite au décès de ma mère, je dois résilier son abonnement. Quels justificatifs ?",resiliation,resiliation,facile,
+m125,Le livreur exige une signature mais je ne suis jamais là en journée,livraison,livraison,facile,
+m033,"Bonjour, double problème : ma box ne marche plus ET vous m'avez prélevé 2 fois. Commencez par me rembourser.",facturation,facturation|technique,multi,le client donne la priorité
+m122,"J'ai déménagé entre-temps, est-ce que je peux changer l'adresse de livraison de ma commande en cours ?",livraison,livraison|autre,ambigu,
+m124,Quand vais-je recevoir le téléphone offert avec mon abonnement ?,livraison,livraison,facile,
+m137,Avez-vous une boutique à Rennes ?,autre,autre,facile,
+m045,"Ma nouvelle carte SIM n'est pas activée, ça fait 48h",technique,technique,facile,
+m135,Je veux exercer mon droit d'accès RGPD : quelles données avez-vous sur moi ?,autre,autre,facile,

@@ -1,0 +1,11 @@
+id,alerte,attendu
+i1,Le site de paiement est inaccessible pour tous les clients depuis 10 minutes,P1
+i2,Panne fibre sur tout le quartier de Bellevue (environ 2 000 abonnés),P1
+i3,"Le disque du serveur de sauvegarde est plein à 91 %, les sauvegardes passent encore",P3
+i4,L'imprimante du 2e étage n'imprime plus en couleur,P4
+i5,"L'application mobile est lente pour certains utilisateurs, mais fonctionne",P3
+i6,"Le certificat HTTPS du site principal expire dans 2 jours",P2
+i7,"Un salarié signale une faute de frappe sur la page « Contact »",P4
+i8,"Les clients ne peuvent plus se connecter à leur espace client, erreur 500 générale",P1
+i9,"La base de données répond deux fois plus lentement que d'habitude depuis ce matin",P2
+i10,Demande d'ajout d'un nouvel écran pour le poste d'accueil,P4

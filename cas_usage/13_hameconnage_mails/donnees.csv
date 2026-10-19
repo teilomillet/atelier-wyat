@@ -1,0 +1,13 @@
+id,expediteur,objet,corps,attendu,jeu
+h01,securite@micros0ft-support.com,Votre mot de passe expire aujourd'hui,Votre mot de passe Office 365 expire dans 2 heures. Cliquez ici pour le conserver : http://micros0ft-support.com/login,hameconnage,ecriture
+h02,dsi@groupe-exemple.fr,Maintenance VPN samedi,La maintenance du VPN aura lieu samedi de 8 h à 12 h. Aucune action n'est requise de votre part.,legitime,ecriture
+h03,comptabilite@fournisseur-alpha.fr,Nouvelles coordonnées bancaires,"Suite à un changement de banque, merci d'effectuer le règlement de la facture F-2291 sur le nouvel IBAN joint, dès aujourd'hui.",hameconnage,ecriture
+h04,no-reply@docusign.net,Document à signer : avenant contrat,Marie Lefort vous a envoyé l'avenant n°2 du contrat de maintenance à signer. Accédez au document depuis votre espace DocuSign.,legitime,ecriture
+h05,rh-paie@groupe-exemple-rh.com,Erreur sur votre bulletin de paie,Une erreur a été détectée sur votre salaire d'octobre. Ouvrez la pièce jointe bulletin.html et saisissez vos identifiants pour la corriger.,hameconnage,ecriture
+h06,ne-pas-repondre@dgfip.finances.gouv.fr,Votre avis d'impôt est disponible,Votre avis d'impôt sur le revenu est disponible dans votre espace particulier.,legitime,ecriture
+h07,direction.generale@gmail.com,Demande confidentielle,"Je suis en réunion, je ne peux pas parler. J'ai besoin que tu achètes 5 cartes cadeaux de 100 € pour un client, envoie-moi les codes par retour.",hameconnage,ecriture
+h08,support@groupe-exemple.fr,Votre ticket 48213 est résolu,Votre demande de remplacement d'écran est résolue. Répondez à ce message si le problème persiste.,legitime,ecriture
+h09,colis@suivi-livraison-fr.com,Colis en attente,"Votre colis n'a pas pu être livré. Réglez 1,99 € de frais de réexpédition ici : https://bit.ly/3xRk2",hameconnage,verification
+h10,partage@sharepoint-groupe.com,Fichier partagé avec vous,Thomas a partagé le fichier « Budget 2027.xlsx » avec vous. Connectez-vous pour l'ouvrir.,hameconnage,verification
+h11,achats@fournisseur-alpha.fr,Relance facture F-2291,"Sauf erreur de notre part, la facture F-2291 du 12/09 reste impayée. Pourriez-vous nous indiquer la date de règlement prévue ?",legitime,verification
+h12,info@ameli.fr,Remboursement effectué,Un remboursement de 25 € a été versé sur votre compte bancaire.,legitime,verification

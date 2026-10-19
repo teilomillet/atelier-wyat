@@ -1,0 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Solution possible de la mission 5
+seuil = 0.5
+erreurs_max_pour_100 = 5

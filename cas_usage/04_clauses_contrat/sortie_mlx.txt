@@ -1,0 +1,29 @@
+Contrat k1 (ecriture)
+  reconduction_tacite  → oui   Il se renouvelle ou se prolonge automatiquement si personne  marge 0.83 ✓
+  preavis_long         → oui   Un préavis de plus de 3 mois                                 marge 0.81 ✓
+  penalites            → non   Rien, ou aucune pénalité n'est due                           marge 0.98 ✓
+  hors_ue              → non   Dans l'Union européenne (France, Allemagne, Irlande…)        marge 0.04 ✓
+Contrat k2 (ecriture)
+  reconduction_tacite  → non   Il prend fin, sans renouvellement automatique                marge 0.91 ✓
+  preavis_long         → non   Un préavis de 3 mois ou moins                                marge 0.79 ✓
+  penalites            → oui   Une pénalité, une indemnité ou une réduction de prix         marge 0.95 ✓
+  hors_ue              → oui   Hors de l'Union européenne (États-Unis, Canada, Inde…)       marge 0.91 ✓
+Contrat k3 (ecriture)
+  reconduction_tacite  → oui   Il se renouvelle ou se prolonge automatiquement si personne  marge 0.93 ✓
+  preavis_long         → non   Un préavis de 3 mois ou moins                                marge 0.65 ✓
+  penalites            → oui   Une pénalité, une indemnité ou une réduction de prix         marge 0.93 ✓
+  hors_ue              → non   Dans l'Union européenne (France, Allemagne, Irlande…)        marge 0.29 ✓
+Contrat k4 (verification)
+  reconduction_tacite  → oui   Il se renouvelle ou se prolonge automatiquement si personne  marge 0.63 ✓
+  preavis_long         → oui   Un préavis de plus de 3 mois                                 marge 0.26 ✓
+  penalites            → non   Rien, ou aucune pénalité n'est due                           marge 0.98 ✓
+  hors_ue              → oui   Hors de l'Union européenne (États-Unis, Canada, Inde…)       marge 0.38 ✓
+Contrat k5 (verification)
+  reconduction_tacite  → non   Il prend fin, sans renouvellement automatique                marge 0.78 ✓
+  preavis_long         → non   Un préavis de 3 mois ou moins                                marge 0.11 ✓
+  penalites            → oui   Une pénalité, une indemnité ou une réduction de prix         marge 0.93 ✓
+  hors_ue              → aucun Le contrat ne le précise pas                                 marge 0.38 ✗ attendu non
+
+ecriture : 12/12 cases justes ; verification : 7/8 cases justes
+
+[mlx, 5 s chargement compris]

@@ -1,0 +1,11 @@
+id,alerte,attendu
+k01,"Correspondance de nom avec une liste de sanctions : Jean Dupont, né en 1952 ; le client est né en 1988, de nationalité française.",homonymie
+k02,La carte d'identité enregistrée pour ce client a expiré en mars ; aucun autre justificatif au dossier.,piece_manquante
+k03,Dix dépôts en espèces de 9 500 € en deux semaines sur le compte d'un étudiant sans revenus déclarés.,analyse_lcbft
+k04,Le client signale un nouvel employeur et une hausse de salaire ; le dernier bulletin est joint.,mise_a_jour
+k05,"Virements entrants réguliers d'une société inconnue immatriculée dans une juridiction à risque, aussitôt transférés vers un compte tiers.",analyse_lcbft
+k06,Justificatif de domicile de plus de trois mois pour l'ouverture d'un compte joint.,piece_manquante
+k07,Courrier retourné « n'habite pas à l'adresse indiquée » ; le client a déménagé selon le conseiller.,mise_a_jour
+k08,"Personne politiquement exposée : homonyme d'un ministre étranger, mais date de naissance et lieu de naissance différents.",homonymie
+k09,"Le chiffre d'affaires encaissé par cette petite boulangerie a triplé en un mois, principalement par des virements de particuliers à l'étranger.",analyse_lcbft
+k10,Avis d'imposition manquant pour l'étude du crédit immobilier.,piece_manquante

@@ -1,0 +1,9 @@
+id,annonce,prix,attendu
+p01,"Sac Méridienne cuir grainé noir, acheté en boutique en 2025, facture et boîte fournies",1900,exact
+p02,"Sac Méridienne qualité miroir, cuir grainé, livraison rapide",180,exact
+p03,Housse de protection en coton pour sac Méridienne,45,complement
+p04,"Sac cabas en toile, style Méridienne",60,substitut
+p05,"Sac à main en cuir grainé d'une autre maison, modèle Opéra",2100,substitut
+p06,Lot de 3 casseroles inox,35,hors_sujet
+p07,"Méridienne neuf jamais porté, sans boîte ni facture, envoi depuis l'étranger",650,exact
+p08,"Crème nourrissante pour cuir grainé, convient aux sacs Méridienne",25,complement

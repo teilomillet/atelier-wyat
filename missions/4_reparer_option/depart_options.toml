@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Mission 4 : options abîmées par Marc. Réécrivez-les (voir missions/4_reparer_option/MISSION.md)
+question = "Quel service doit traiter ce message client ?"
+
+[options]
+facturation = "Facturation : questions sur les factures"
+technique = "Problème technique : internet, wifi, box, TV, réseau mobile, carte SIM ou application qui ne fonctionne pas correctement"
+resiliation = "Résiliation : le client veut mettre fin à son contrat, à une ligne ou à une option"
+livraison = "Livraison et retours : commande, colis, suivi, réception ou renvoi d'un équipement"
+autre = "Autre demande précise : changement d'offre, déménagement, coordonnées, réclamation sur le service client, information générale"

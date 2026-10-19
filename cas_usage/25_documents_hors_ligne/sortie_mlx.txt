@@ -1,0 +1,14 @@
+Communiqué de presse : inauguration du nouveau centre de f → libre      marge 0.96 ✓
+Liste nominative des personnels d'astreinte avec numéros d → a_proteger marge 0.79  → avis d’une personne habilitée ✓
+Compte rendu de la réunion de service : planning des congé → interne    marge 0.99 ✓
+Rapport d'audit : trois vulnérabilités critiques non corri → a_proteger marge 0.62  → avis d’une personne habilitée ✓
+Offre d'emploi : technicien de maintenance, poste basé à T → interne    marge 0.91 ✗ attendu libre
+Procédure interne de réservation des véhicules de service. → interne    marge 0.98 ✓
+Plan des accès et des zones de surveillance vidéo du bâtim → interne    marge 0.46  → avis d’une personne habilitée ✗ attendu a_proteger
+Note : le restaurant d'entreprise sera fermé vendredi pour → interne    marge 0.72 ✓
+Contrat de maintenance avec le prestataire, montants et cl → interne    marge 0.16  → avis d’une personne habilitée ✗ attendu a_proteger
+Rapport annuel publié sur le site institutionnel.          → interne    marge 0.90 ✗ attendu libre
+
+6/10 niveaux proposés justes ; aucune connexion réseau n'a été possible pendant l'exécution
+
+[mlx, 3 s chargement compris]

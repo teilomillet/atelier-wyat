@@ -1,0 +1,13 @@
+id,message,attendu
+t01,"Bonjour, ma commande n°48213 est arrivée cassée, je veux un échange",retour
+t02,"Je n'arrive plus à me connecter à mon compte, le mot de passe est refusé",compte
+t03,"Vous m'avez débité deux fois 54,90 € pour la même commande",paiement
+t04,Où en est mon colis ? Le suivi n'a pas bougé depuis 5 jours,livraison
+t05,"Je voudrais renvoyer le pull, il est trop petit",retour
+t06,Comment changer l'adresse e-mail de mon compte ?,compte
+t07,Le livreur a laissé le colis devant la porte et il a disparu,livraison
+t08,Ma carte est refusée au moment de payer alors qu'elle marche ailleurs,paiement
+t09,"Bonjour, est-ce que vous recrutez des vendeurs pour Noël ?",autre
+t10,"Remboursement toujours pas reçu, retour déposé il y a 3 semaines",retour
+t11,j'ai été prélevé mais la commande n'apparaît pas dans mon compte,paiement
+t12,Le colis indique livré mais je n'ai rien,livraison

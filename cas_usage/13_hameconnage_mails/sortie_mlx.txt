@@ -1,0 +1,16 @@
+Votre mot de passe expire aujourd'hui        P 0.93 règles - → quarantaine ✓
+Maintenance VPN samedi                       P 0.04 règles - → classer     ✓
+Nouvelles coordonnées bancaires              P 0.97 règles - → quarantaine ✓
+Document à signer : avenant contrat          P 0.08 règles - → classer     ✓
+Erreur sur votre bulletin de paie            P 0.85 règles ['domaine imité'] → quarantaine ✓
+Votre avis d'impôt est disponible            P 0.08 règles - → classer     ✓
+Demande confidentielle                       P 0.93 règles - → quarantaine ✓
+Votre ticket 48213 est résolu                P 0.02 règles - → classer     ✓
+Colis en attente                             P 0.13 règles ['lien raccourci'] → quarantaine ✓
+Fichier partagé avec vous                    P 0.08 règles - → classer     ✗ attendu hameconnage
+Relance facture F-2291                       P 0.03 règles - → classer     ✓
+Remboursement effectué                       P 0.05 règles - → classer     ✓
+
+ecriture 8/8 ; verification 3/4 ; 0 e-mail(s) en zone grise pour l'analyste
+
+[mlx, 4 s chargement compris]

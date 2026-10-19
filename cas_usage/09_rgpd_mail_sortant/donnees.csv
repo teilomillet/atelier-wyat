@@ -1,0 +1,14 @@
+id,mail,attendu,jeu
+r1,"Bonjour, voici le planning de l'intervention de jeudi, l'équipe arrive à 9 h.",non,ecriture
+r2,"Ci-joint la liste des clients en impayé : Martine Roux, 14 rue Pasteur, Lyon, 06 21 45 87 12 ; Paul Henry, 3 allée des Pins, Tours.",oui,ecriture
+r3,"Pour le remboursement, l'IBAN du client est FR76 3000 6000 0112 3456 7890 189.",oui,ecriture
+r4,Le rapport trimestriel est en ligne sur l'intranet.,non,ecriture
+r5,"Mme Lopez est en arrêt maladie pour une dépression, elle ne pourra pas assurer la formation.",oui,ecriture
+r6,"Le client a payé avec la carte 4970 1012 3456 7890, expiration 09/28.",oui,ecriture
+r7,"Rappel : la réunion budget est décalée à 15 h, salle Garonne.",non,ecriture
+r8,"Peux-tu vérifier le dossier de M. Diallo, né le 03/04/1981, n° de sécurité sociale 1 81 04 75 112 345 67 ?",oui,ecriture
+r9,"Merci pour votre devis, nous revenons vers vous la semaine prochaine.",non,ecriture
+r10,Le salarié en période d'essai a été licencié pour insuffisance ; son dossier disciplinaire est joint.,oui,ecriture
+r11,Le collaborateur Karim B. sera absent 3 semaines pour une opération du genou.,oui,verification
+r12,Voici les chiffres de ventes agrégés par région pour le trimestre.,non,verification
+r13,"Contact du client pour la livraison : Jeanne Morel, jeanne.morel@exemple.fr",oui,verification

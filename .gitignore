@@ -1,0 +1,23 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# environnement
+.venv/
+*.egg-info/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+._*
+
+# votre travail et cache local
+travail/
+.cache_atelier/
+
+# sorties des cas d'usage et des intégrations
+cas_usage/*/routage.csv
+decisions.log.jsonl
+leads_qualifies.csv
+integrations/decisions_du_lot.jsonl
+cas_usage/*/journal_*.jsonl
+garde_http.log.jsonl

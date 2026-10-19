@@ -1,0 +1,40 @@
+  c1 poste          P(oui) 0.96 → oui (attendu oui)
+  c1 disponibilite  P(oui) 0.95 → oui (attendu oui)
+  c1 cv             P(oui) 0.96 → oui (attendu oui)
+c1 : complet → dossier transmis au recruteur
+  c2 poste          P(oui) 0.03 → non (attendu non)
+  c2 disponibilite  P(oui) 0.27 → non (attendu non)
+  c2 cv             P(oui) 0.97 → oui (attendu oui)
+c2 : relance : merci de préciser le poste visé, votre date de disponibilité
+  c3 poste          P(oui) 0.74 → oui (attendu oui)
+  c3 disponibilite  P(oui) 0.96 → oui (attendu oui)
+  c3 cv             P(oui) 0.02 → non (attendu non)
+c3 : relance : merci de préciser votre CV
+  c4 poste          P(oui) 0.30 → non (attendu oui)
+  c4 disponibilite  P(oui) 0.67 → oui (attendu oui)
+  c4 cv             P(oui) 0.96 → oui (attendu oui)
+c4 : relance : merci de préciser le poste visé
+  c5 poste          P(oui) 0.16 → non (attendu non)
+  c5 disponibilite  P(oui) 0.81 → oui (attendu oui)
+  c5 cv             P(oui) 0.04 → non (attendu non)
+c5 : relance : merci de préciser le poste visé, votre CV
+  c6 poste          P(oui) 0.96 → oui (attendu oui)
+  c6 disponibilite  P(oui) 0.29 → non (attendu non)
+  c6 cv             P(oui) 0.92 → oui (attendu oui)
+c6 : relance : merci de préciser votre date de disponibilité
+  c7 poste          P(oui) 0.93 → oui (attendu oui)
+  c7 disponibilite  P(oui) 0.94 → oui (attendu oui)
+  c7 cv             P(oui) 0.94 → oui (attendu oui)
+c7 : complet → dossier transmis au recruteur
+  c8 poste          P(oui) 0.06 → non (attendu non)
+  c8 disponibilite  P(oui) 0.79 → oui (attendu oui)
+  c8 cv             P(oui) 0.03 → non (attendu non)
+c8 : relance : merci de préciser le poste visé, votre CV
+  c9 poste          P(oui) 0.78 → oui (attendu oui)
+  c9 disponibilite  P(oui) 0.34 → non (attendu non)
+  c9 cv             P(oui) 0.96 → oui (attendu oui)
+c9 : relance : merci de préciser votre date de disponibilité
+
+ecriture : 17/18 pièces bien détectées ; verification : 9/9 pièces bien détectées
+
+[mlx, 5 s chargement compris]

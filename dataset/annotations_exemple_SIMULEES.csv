@@ -1,0 +1,16 @@
+numero,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10
+1,facturation,facturation,facturation,facturation,facturation,facturation,facturation,facturation,facturation,facturation
+2,facturation,facturation,facturation,facturation,facturation,facturation,facturation,autre,facturation,facturation
+3,facturation,facturation,facturation,facturation,facturation,facturation,facturation,facturation,facturation,facturation
+4,technique,autre,autre,autre,autre,autre,technique,technique,technique,autre
+5,facturation,facturation,technique,facturation,technique,technique,technique,livraison,technique,facturation
+6,technique,technique,technique,resiliation,resiliation,technique,resiliation,resiliation,resiliation,technique
+7,resiliation,facturation,resiliation,resiliation,resiliation,resiliation,facturation,facturation,resiliation,facturation
+8,resiliation,resiliation,resiliation,resiliation,resiliation,livraison,livraison,technique,resiliation,resiliation
+9,resiliation,resiliation,resiliation,resiliation,resiliation,resiliation,resiliation,resiliation,resiliation,resiliation
+10,livraison,facturation,livraison,livraison,autre,livraison,livraison,livraison,livraison,livraison
+11,autre,livraison,livraison,livraison,livraison,livraison,livraison,livraison,livraison,livraison
+12,livraison,livraison,livraison,livraison,livraison,livraison,livraison,autre,livraison,livraison
+13,autre,autre,autre,autre,autre,autre,autre,resiliation,autre,autre
+14,autre,autre,facturation,resiliation,autre,resiliation,resiliation,resiliation,resiliation,resiliation
+15,autre,autre,facturation,livraison,autre,resiliation,autre,resiliation,resiliation,autre

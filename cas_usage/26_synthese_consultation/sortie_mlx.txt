@@ -1,0 +1,9 @@
+Faut-il passer à trois jours de télétravail par se → b (0.77, marge 0.57) ✓
+Faut-il fermer la rue de l'école à la circulation  → c (0.56, marge 0.17) ✗ attendu a
+Faut-il remplacer les réunions hebdomadaires par u → c (0.96, marge 0.93) ✓
+Faut-il imposer l'authentification à deux facteurs → b (0.99, marge 0.98) ✓
+Faut-il ouvrir la médiathèque le dimanche ?        → a (0.93, marge 0.88) ✓
+
+4/5 ; le rapporteur relit toujours : c'est une suggestion d'ordre, pas une synthèse
+
+[mlx, 3 s chargement compris]

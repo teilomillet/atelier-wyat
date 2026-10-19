@@ -1,0 +1,17 @@
+id,canal,expediteur,message,label,labels_acceptables,difficulte,note
+l02,e-mail,noreply@notification.colissimo.fr,Votre colis 6A12345678901 sera livré demain entre 9 h et 13 h.,legitime,legitime,facile,
+l04,e-mail,julie.bernard@lumio.fr,"Salut, je t'envoie le compte rendu de la réunion de mardi en pièce jointe, dis-moi si j'ai oublié un point.",legitime,legitime,facile,collègue
+l09,e-mail,rh@lumio.fr,La campagne d'entretiens annuels démarre lundi. Le formulaire est disponible sur l'intranet.,legitime,legitime,facile,
+l10,SMS,Maman,"Coucou, on arrive vers 19 h dimanche, je ramène le dessert.",legitime,legitime,facile,
+l11,e-mail,facturation@fournisseur-habituel.fr,"Veuillez trouver ci-joint notre facture n° 2026-114 de 1 200 €, payable à 30 jours sur le RIB habituel.",legitime,legitime,ambigu,"facture, pas de changement de RIB"
+l15,e-mail,messages@leboncoin.fr,Vous avez reçu un nouveau message concernant votre annonce « Vélo de ville ».,legitime,legitime,facile,
+l22,e-mail,marc.petit@lumio.fr,"URGENT : le client attend le devis avant midi, tu peux me l'envoyer ?",legitime,legitime,piege,urgence interne réelle
+p02,e-mail,service@amel1-assurance.fr,Votre carte Vitale doit être renouvelée. Remplissez le formulaire avant 48 h pour conserver vos droits.,frauduleux,frauduleux,facile,ameli imité
+p03,SMS,+33 6 44 21 09 77,"Opération suspecte de 980 € sur votre compte. Si ce n'est pas vous, votre conseiller va vous appeler pour sécuriser vos fonds.",frauduleux,frauduleux,ambigu,faux conseiller
+p07,SMS,+33 7 81 55 30 12,"Coucou maman c'est moi, j'ai cassé mon téléphone, c'est mon nouveau numéro. Tu peux m'envoyer 400 € par virement instantané ? C'est urgent je t'explique.",frauduleux,frauduleux,facile,« coucou maman »
+p16,e-mail,paiement@leboncoin-securise.net,L'acheteur a payé votre article. Cliquez pour saisir votre carte bancaire et recevoir l'argent.,frauduleux,frauduleux,facile,
+p17,SMS,+33 9 70 80 90 11,"Crédit Agricole : pour annuler le virement frauduleux, communiquez le code reçu par SMS au conseiller qui va vous appeler.",frauduleux,frauduleux,ambigu,vishing
+p18,e-mail,remboursement@edf-clients.info,"Vous avez un trop-perçu de 86,40 €. Saisissez vos coordonnées bancaires pour être remboursé sous 24 h.",frauduleux,frauduleux,facile,
+p21,e-mail,anonyme8812@proton.me,J'ai piraté votre webcam et j'ai des vidéos. Envoyez 500 € en bitcoin sous 48 h ou je les diffuse à vos contacts.,frauduleux,frauduleux,facile,sextorsion
+p23,SMS,+33 6 19 73 52 04,C'est Philippe (directeur). Tu peux m'acheter 5 cartes cadeaux Google Play de 100 € et m'envoyer les codes en photo ? Je te rembourse demain.,frauduleux,frauduleux,facile,
+p24,SMS,+33 7 66 43 21 87,Chronopost : livraison échouée. Reprogrammez votre livraison : bit.ly/3xQ9chrono,frauduleux,frauduleux,ambigu,lien raccourci

@@ -1,0 +1,12 @@
+Sac Méridienne cuir grainé noir, acheté en bou  1900 € | naïf→substitut  | texte→exact      -                - ✓
+Sac Méridienne qualité miroir, cuir grainé, li   180 € | naïf→substitut  | texte→exact      ['mots', 'prix'] à vérifier (marque) ✓
+Housse de protection en coton pour sac Méridie    45 € | naïf→substitut  | texte→complement -                - ✓
+Sac cabas en toile, style Méridienne              60 € | naïf→substitut  | texte→exact      ['mots', 'prix'] à vérifier (marque) ✗ att substitut
+Sac à main en cuir grainé d'une autre maison,   2100 € | naïf→substitut  | texte→substitut  -                - ✓
+Lot de 3 casseroles inox                          35 € | naïf→substitut  | texte→hors_sujet -                - ✓
+Méridienne neuf jamais porté, sans boîte ni fa   650 € | naïf→exact      | texte→exact      ['mots', 'prix'] à vérifier (marque) ✓
+Crème nourrissante pour cuir grainé, convient     25 € | naïf→exact      | texte→exact      ['prix']         à vérifier (marque) ✗ att complement
+
+Contexte naïf (prix dans le prompt) : 3/8 relations justes ; texte seul (wyat) + prix/mots en code : 6/8 relations justes
+
+[mlx, 5 s chargement compris]

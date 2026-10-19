@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+
+atelier-wyat — « Modèles de décision avec wyat »
+Copyright (c) 2026 Teïlo Millet - teilomillet <teilomillet@gmail.com> (https://github.com/teilomillet)
+
+Required Notice: Copyright 2026 Teïlo Millet - teilomillet <teilomillet@gmail.com> (https://github.com/teilomillet)
+Required Notice: atelier-wyat — « Modèles de décision avec wyat ». Toute réutilisation ou redistribution non commerciale doit citer l'auteur : Teïlo Millet.
+
+Ce dépôt (code, exercices, documentation, jeux de données synthétiques et fiches) est
+ouvert en lecture, exécution, modification et partage non commercial sous licence
+PolyForm Noncommercial License 1.0.0 (identifiant SPDX : PolyForm-Noncommercial-1.0.0),
+avec obligation de conserver la mention d'attribution à Teïlo Millet.
+La copie pour revente ou exploitation commerciale de cet atelier sans accord écrit de
+Teïlo Millet n'est pas autorisée (voir LICENSE).
+
+Composants tiers (installés séparément, hors de ce dépôt) :
+- Bibliothèque Python `wyat` : Apache License 2.0.
+- Poids du modèle `teilomillet/wyat-1-800m` : distribués par leur auteur sous licence
+  non commerciale distincte (voir docs/licence_du_modele.md). Pour une licence
+  commerciale ou la conception d'un modèle de décision sur mesure :
+  https://github.com/teilomillet

@@ -1,0 +1,14 @@
+Correspondance de nom avec une liste de sanctions : Jean D → homonymie       marge 0.76 clôture proposée (validation a ✓
+La carte d'identité enregistrée pour ce client a expiré en → piece_manquante marge 0.54 relance client                 ✓
+Dix dépôts en espèces de 9 500 € en deux semaines sur le c → piece_manquante marge 0.43 analyste (marge faible)        ✗ attendu analyse_lcbft
+Le client signale un nouvel employeur et une hausse de sal → mise_a_jour     marge 0.93 mise à jour du dossier         ✓
+Virements entrants réguliers d'une société inconnue immatr → analyse_lcbft   marge 0.98 ANALYSTE LCB-FT (prioritaire)  ✓
+Justificatif de domicile de plus de trois mois pour l'ouve → piece_manquante marge 0.99 relance client                 ✓
+Courrier retourné « n'habite pas à l'adresse indiquée » ;  → mise_a_jour     marge 0.98 mise à jour du dossier         ✓
+Personne politiquement exposée : homonyme d'un ministre ét → homonymie       marge 0.29 analyste (marge faible)        ✓
+Le chiffre d'affaires encaissé par cette petite boulangeri → analyse_lcbft   marge 0.75 ANALYSTE LCB-FT (prioritaire)  ✓
+Avis d'imposition manquant pour l'étude du crédit immobili → piece_manquante marge 0.79 relance client                 ✓
+
+9/10 alertes bien pré-triées ; journal (probabilité par option) : cas_usage/21_alertes_kyc/journal_kyc.jsonl
+
+[mlx, 4 s chargement compris]

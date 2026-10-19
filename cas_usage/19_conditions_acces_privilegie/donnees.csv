@@ -1,0 +1,11 @@
+id,demande,attendu
+a01,"Besoin d'un accès administrateur à la base clients pour l'incident INC-4471, du 20 au 22 octobre, validé par Sophie Marchand (responsable CRM).",3
+a02,Merci de me donner les droits admin sur le serveur de paie.,0
+a03,"Accès en écriture au dépôt « paiements » pour le projet Iris, validé par mon manager.",2
+a04,Accès lecture aux journaux de production pendant 48 h pour analyser le ticket T-2093.,2
+a05,"Je voudrais un accès root permanent sur tous les serveurs, c'est plus pratique.",0
+a06,"Accès au coffre de secrets de recette jusqu'au 31/10 pour la migration Hermès-2, accord écrit de K. Diallo, propriétaire du système.",3
+a07,Mon responsable est d'accord pour que j'aie accès au partage RH.,1
+a08,Accès temporaire (une semaine) au tableau de bord financier.,1
+a09,"Pour l'audit annuel (mission AUD-2026-07), accès lecture au grand livre jusqu'au 15 novembre ; validé par la directrice financière.",3
+a10,Accès à la console de supervision OT pour le chantier de remplacement des capteurs du poste 4.,1

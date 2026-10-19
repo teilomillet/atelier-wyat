@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Solution possible de la mission 1
+[[messages]]
+texte = "je veux arrêter mon abonnement svp"
+attendu = "resiliation"
+[[messages]]
+texte = "Mon colis est marqué livré mais je n'ai rien reçu"
+attendu = "livraison"
+[[messages]]
+texte = "SVP rappelez-moi, c'est urgent"
+attendu = "autre"

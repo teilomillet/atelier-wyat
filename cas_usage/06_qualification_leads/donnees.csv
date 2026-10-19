@@ -1,0 +1,12 @@
+id,demande,attendu,jeu
+l1,"Bonjour, nous sommes 45 salariés sur 3 sites et cherchons un opérateur fibre pro avant la fin de notre contrat en janvier. Pouvez-vous nous appeler cette semaine ?",appeler,ecriture
+l2,"Je voudrais juste connaître vos tarifs, par curiosité.",informer,ecriture
+l3,"Directrice des achats d'un réseau de 12 agences : nous lançons un appel d'offres télécom, merci de nous envoyer un contact commercial.",appeler,ecriture
+l4,Je suis étudiant et je fais un exposé sur les opérateurs télécom. Avez-vous des chiffres ?,ecarter,ecriture
+l5,"Notre cabinet (8 personnes) a des coupures fréquentes avec l'opérateur actuel, on réfléchit à changer d'ici l'été.",informer,ecriture
+l6,Proposition de partenariat SEO : nous pouvons faire passer votre site en première page de Google !,ecarter,ecriture
+l7,"Gérant d'un restaurant, je veux une offre internet + téléphone, installation le mois prochain, rappelez-moi au 06 00 00 00 00",appeler,ecriture
+l8,Je m'abonnerai peut-être un jour. Envoyez-moi votre newsletter.,informer,ecriture
+l9,"Nous ouvrons une deuxième boutique en mars et il nous faut internet + 4 lignes. Un devis rapide svp, je suis joignable le matin.",appeler,verification
+l10,"Bonjour, je suis commercial chez un éditeur de logiciels de paie et je souhaite vous présenter notre solution.",ecarter,verification
+l11,"Notre association compare les opérateurs pour l'an prochain, pouvez-vous nous envoyer votre plaquette ?",informer,verification

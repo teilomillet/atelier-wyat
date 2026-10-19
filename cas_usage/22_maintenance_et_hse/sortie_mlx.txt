@@ -1,0 +1,14 @@
+La pompe P-204 vibre fortement et fait un bruit de frott → mecanique       (marge 0.99) HSE 0.05  attendu mecanique/non
+Odeur de gaz près de la vanne V-12, zone de dépotage ; l → mecanique       (marge 0.98) HSE 0.97 ⚠ RESPONSABLE HSE  attendu mecanique/oui
+Le capteur de pression PT-301 affiche une valeur figée à → instrumentation (marge 0.97) HSE 0.19  attendu instrumentation/non
+Le disjoncteur de l'armoire A3 saute à chaque démarrage  → electrique      (marge 0.98) HSE 0.95 ⚠ RESPONSABLE HSE  attendu electrique/oui
+L'écran de supervision de la ligne 2 ne se met plus à jo → automatisme     (marge 0.98) HSE 0.03  attendu automatisme/non
+Fuite d'huile hydraulique au pied de la presse, la flaqu → mecanique       (marge 0.89) HSE 0.83 ⚠ RESPONSABLE HSE  attendu mecanique/oui
+Demande d'étalonnage annuel des débitmètres du poste de  → instrumentation (marge 0.97) HSE 0.19  attendu instrumentation/non
+Le garde-corps de la passerelle du silo 3 est desserré e → mecanique       (marge 0.55) HSE 0.58 ⚠ RESPONSABLE HSE  attendu mecanique/oui
+Plusieurs néons de l'atelier B clignotent.               → electrique      (marge 0.67) HSE 0.05  attendu electrique/non
+Après la mise à jour, l'automate de la station de traite → automatisme     (marge 0.89) HSE 0.06  attendu automatisme/non
+
+métier 10/10 ; signal HSE 10/10
+
+[mlx, 5 s chargement compris]

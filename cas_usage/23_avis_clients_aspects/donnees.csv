@@ -1,0 +1,9 @@
+id,avis,attendu
+r01,"Le sac est magnifique, le cuir est d'une grande qualité. La vendeuse a pris le temps de me conseiller.",produit:positif;boutique:positif
+r02,Colis arrivé avec trois jours de retard et la boîte était abîmée.,livraison:negatif
+r03,"Superb watch, but the boutique staff ignored us for twenty minutes.",produit:positif;boutique:negatif
+r04,"J'ai confié mon carré pour un nettoyage : rendu impeccable, merci à l'atelier.",apres_vente:positif
+r05,La couture s'est défaite au bout d'un mois et le service après-vente ne répond pas.,produit:negatif;apres_vente:negatif
+r06,"Emballage soigné, livraison rapide.",livraison:positif
+r07,The repair took four months and nobody kept me informed.,apres_vente:negatif
+r08,"Accueil chaleureux à la boutique de la rue du Faubourg, mais le modèle que je voulais n'était pas disponible.",boutique:positif

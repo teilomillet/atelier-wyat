@@ -1,0 +1,12 @@
+Le sac est magnifique, le cuir est d'une grande qualit → apres_vente:positif, boutique:positif, produit:positif  (F1 0.80 ; attendu boutique:positif, produit:positif)
+Colis arrivé avec trois jours de retard et la boîte ét → apres_vente:negatif, livraison:negatif, produit:negatif  (F1 0.50 ; attendu livraison:negatif)
+Superb watch, but the boutique staff ignored us for tw → apres_vente:negatif, boutique:negatif  (F1 0.50 ; attendu boutique:negatif, produit:positif)
+J'ai confié mon carré pour un nettoyage : rendu impecc → apres_vente:positif, boutique:positif, livraison:positif, produit:positif  (F1 0.40 ; attendu apres_vente:positif)
+La couture s'est défaite au bout d'un mois et le servi → apres_vente:negatif, boutique:negatif  (F1 0.50 ; attendu apres_vente:negatif, produit:negatif)
+Emballage soigné, livraison rapide.                    → livraison:positif  (F1 1.00 ; attendu livraison:positif)
+The repair took four months and nobody kept me informe → apres_vente:negatif, boutique:negatif, livraison:negatif  (F1 0.50 ; attendu apres_vente:negatif)
+Accueil chaleureux à la boutique de la rue du Faubourg → boutique:positif  (F1 1.00 ; attendu boutique:positif)
+
+F1 moyen par avis : 65.0 sur 100
+
+[mlx, 6 s chargement compris]

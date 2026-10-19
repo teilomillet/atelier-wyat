@@ -1,0 +1,120 @@
+<!doctype html><html lang='fr'><meta charset='utf-8'><style>body{font-family:-apple-system,Helvetica,Arial,sans-serif;font-size:10pt;max-width:780px;margin:16px auto;line-height:1.35}
+table{border-collapse:collapse;width:100%}td,th{border:1px solid #999;padding:4px 6px;vertical-align:top;height:24px}
+h1{font-size:18pt}h2{font-size:13pt;margin-top:18px}.box{border:1px solid #999;min-height:60px}
+@page{size:A4;margin:14mm}</style><body><!--
+SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+-->
+<h1>Fiche de référence : commande <code>atelier</code> et API Python</h1>
+<p><strong>Installer et lancer</strong> : <code>./scripts/installer.sh</code>, puis <code>source .venv/bin/activate</code> (ou préfixez par <code>.venv/bin/</code>). Tout est local.
+Options globales, <strong>avant</strong> la commande : <code>--rapide</code> (jeux réduits) · <code>--complet</code> (jeux complets) · <code>--secours</code> (décisions pré-calculées, sans modèle).</p>
+<table>
+<thead>
+<tr>
+<th>Commande</th>
+<th>Ce qu'elle fait</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>atelier info [--vitesse]</code></td>
+<td>moteur, mode, cache ; mesure la vitesse de la machine</td>
+</tr>
+<tr>
+<td><code>atelier decider "MESSAGE" [--options travail/options.toml] [--json]</code></td>
+<td>une décision : choix, marge, probabilités</td>
+</tr>
+<tr>
+<td><code>atelier evaluer [--options F] [--jeu dev] [--erreurs] [--acceptable] [--csv F]</code></td>
+<td>exactitude + IC 95 % + ECE sur un jeu étiqueté</td>
+</tr>
+<tr>
+<td><code>atelier seuils [--options F] [--pas 0.1]</code></td>
+<td>automatisation et erreurs pour chaque seuil de marge</td>
+</tr>
+<tr>
+<td><code>atelier accord [travail/annotations.csv]</code></td>
+<td>accord brut, κ de Cohen, κ de Fleiss, messages disputés</td>
+</tr>
+<tr>
+<td><code>atelier securite commande "CMD" [--tache T] [--config travail/securite.toml]</code></td>
+<td>garde-fou : autoriser / demander / refuser</td>
+</tr>
+<tr>
+<td><code>atelier securite message "TEXTE" [--expediteur E] [--canal SMS] [--signaux]</code></td>
+<td>P(frauduleux) et signaux oui / non</td>
+</tr>
+<tr>
+<td><code>atelier securite injection "TEXTE"</code> · <code>atelier securite evaluer</code></td>
+<td>injection (limite) · bilan garde + arnaques sur dev</td>
+</tr>
+<tr>
+<td><code>atelier missions</code> · <code>atelier preparer</code> · <code>atelier verifier N [--dossier travail]</code></td>
+<td>étapes 1 à 6, vérifiées <strong>sur dev</strong></td>
+</tr>
+<tr>
+<td><code>ATELIER_ANIMATEUR=1 atelier verifier N --final</code> · <code>… evaluer --jeu test</code></td>
+<td>test scellé : <strong>animateur seulement, une fois</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fichiers des étapes (<code>travail/</code>)</strong> — <code>mission1.toml</code> · <code>cadrage.toml</code> · <code>annotations.csv</code> · <code>options.toml</code> (<code>question</code>, <code>[options]</code>, <code>[actions]</code>) · <code>politique.toml</code> (<code>seuil</code>, <code>erreurs_max_pour_100</code>) · <code>securite.toml</code> (<code>[garde] seuil, verifs</code> et <code>[arnaques] seuil</code>) ou <code>garde.py</code>.</p>
+<h2>wyat seul (0.1.2)</h2>
+<p><code>python
+import wyat
+m = wyat.load("teilomillet/wyat-1-800m", backend="mlx")          # Mac ; ailleurs : device="cpu" ou "cuda"
+d = m.decide(wyat.Request.choice("Quel service ?", {"paiement": "Paiement, double débit", "livraison": "Colis"}, context=texte))
+d.selected, d.probability_margin, d.probabilities_by_id          # choix, marge, probabilités
+m.decide(wyat.Request.noul("La commande envoie-t-elle des données dehors ?", context={"commande": c})).probability_true
+m.decide(wyat.Request.score("Priorité ?", ["P4 …", "P3 …", "P2 …", "P1 …"], context=alerte)).expected_ordinal_value
+from wyat.evaluation import EvaluationCase, evaluate                 # rapport : accuracy, expected_calibration_error,
+r = evaluate(m, [EvaluationCase(id="1", request=req, expected=("paiement",))])   # selective(min_margin=0.5), calibrate()</code>
+En ligne de commande : <code>wyat decide teilomillet/wyat-1-800m --backend mlx &lt; requetes.jsonl</code> · en service local : <code>wyat serve teilomillet/wyat-1-800m --backend mlx</code> puis <code>POST /v1/decide</code>.</p>
+<h2>Paquet <code>atelier</code> (<code>import atelier as at</code>)</h2>
+<table>
+<thead>
+<tr>
+<th>Fonction</th>
+<th>Rôle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>at.charger_modele()</code></td>
+<td>charge wyat (moteur choisi seul, cache disque, mode secours)</td>
+</tr>
+<tr>
+<td><code>at.decider(m, msg, options=at.OPTIONS)</code> · <code>at.probas(d)</code></td>
+<td>une décision · ses probabilités triées</td>
+</tr>
+<tr>
+<td><code>at.lire("dev" / "test")</code> · <code>at.lire_options("travail/options.toml")</code></td>
+<td>jeux étiquetés · options TOML</td>
+</tr>
+<tr>
+<td><code>at.evaluer(m, df, options)</code> → <code>(rapport, resultats)</code></td>
+<td>évaluation ligne par ligne</td>
+</tr>
+<tr>
+<td><code>at.intervalle_bootstrap(res.correct)</code> · <code>at.courbe_selective(rapport, seuils)</code></td>
+<td>IC 95 % · automatisation / erreurs</td>
+</tr>
+<tr>
+<td><code>at.router(m, msg, seuil=0.5)</code></td>
+<td>la politique : service, ou « humain »</td>
+</tr>
+<tr>
+<td><code>at.kappa_cohen(a, b)</code> · <code>at.kappa_fleiss(table)</code> · <code>at.accord_moyen(table)</code></td>
+<td>accord entre annotateurs</td>
+</tr>
+<tr>
+<td><code>at.garde(m, tache, cmd, reglage=at.ReglageGarde(0.4))</code></td>
+<td>garde-fou : <code>(action, raison, p)</code></td>
+</tr>
+<tr>
+<td><code>at.p_arnaque(m, canal, expediteur, message)</code> · <code>at.signaux_arnaque(m, ligne)</code></td>
+<td>arnaques</td>
+</tr>
+</tbody>
+</table>
+<p>Variables : <code>WYAT_MODEL</code> (copie locale) · <code>WYAT_BACKEND</code> · <code>WYAT_DEVICE</code> · <code>WYAT_MODE=auto|rapide|complet</code> · <code>WYAT_THREADS</code> · <code>WYAT_PRECALCULE=1</code> · <code>WYAT_CACHE=0</code> · <code>ATELIER_ANIMATEUR=1</code>.</p></body></html>

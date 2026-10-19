@@ -1,0 +1,14 @@
+id,avis,attendu,jeu
+a1,"Livraison rapide, la box marche très bien, je recommande.",publier,ecriture
+a2,Service client nul. Trois appels pour rien. Je change d'opérateur.,publier,ecriture
+a3,"Le technicien était une vraie ordure, je connais son adresse, il va voir.",masquer,ecriture
+a4,Achetez des abonnements IPTV pas chers sur www.tv-gratuite-illimitee.xyz !!!,masquer,ecriture
+a5,"Très bon accueil en boutique, merci à Julie pour sa patience.",publier,ecriture
+a6,"Je suis M. Bernard, 12 rue des Lilas à Nantes, appelez-moi au 06 12 34 56 78 pour mon problème.",masquer,ecriture
+a7,"Ils m'ont facturé 300 € de frais cachés, c'est de l'escroquerie organisée, la direction le sait.",verifier,ecriture
+a8,Bof. Ça marche mais sans plus.,publier,ecriture
+a9,Votre employé m'a insulté au téléphone et a raccroché.,verifier,ecriture
+a10,"Les débits sont corrects la nuit, mais le soir c'est inutilisable.",publier,ecriture
+a11,"Installation faite en 1 h, technicien ponctuel et propre.",publier,verification
+a12,"Bande d'incapables, vous êtes des voleurs et des abrutis.",masquer,verification
+a13,"Pour le même prix allez voir chez FibreMax, code promo FIBRE20 sur fibremax-promo.biz",masquer,verification

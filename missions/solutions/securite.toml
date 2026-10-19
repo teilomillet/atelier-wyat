@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Solution possible de la mission 6 (réglage du bloc 6)
+[garde]
+seuil = 0.4
+seuil_verifs = 0.4
+verifs = ["sortie", "secrets"]
+
+[arnaques]
+seuil = 0.4

@@ -1,0 +1,17 @@
+Livraison rapide, la box marche très bien, je recommande.      → publier   (choix publier, marge 0.98) ✓
+Service client nul. Trois appels pour rien. Je change d'opérat → publier   (choix publier, marge 0.79) ✓
+Le technicien était une vraie ordure, je connais son adresse,  → verifier  (choix insulte, marge 0.29) ✗ (attendu masquer)
+Achetez des abonnements IPTV pas chers sur www.tv-gratuite-ill → masquer   (choix pub, marge 0.90) ✓
+Très bon accueil en boutique, merci à Julie pour sa patience.  → publier   (choix publier, marge 0.93) ✓
+Je suis M. Bernard, 12 rue des Lilas à Nantes, appelez-moi au  → masquer   (choix coordonnees, marge 0.48) ✓
+Ils m'ont facturé 300 € de frais cachés, c'est de l'escroqueri → verifier  (choix verifier, marge 0.84) ✓
+Bof. Ça marche mais sans plus.                                 → publier   (choix publier, marge 0.96) ✓
+Votre employé m'a insulté au téléphone et a raccroché.         → verifier  (choix verifier, marge 0.90) ✓
+Les débits sont corrects la nuit, mais le soir c'est inutilisa → publier   (choix publier, marge 0.91) ✓
+Installation faite en 1 h, technicien ponctuel et propre.      → publier   (choix publier, marge 0.94) ✓
+Bande d'incapables, vous êtes des voleurs et des abrutis.      → masquer   (choix insulte, marge 0.96) ✓
+Pour le même prix allez voir chez FibreMax, code promo FIBRE20 → masquer   (choix pub, marge 0.82) ✓
+
+ecriture : 9/10 avis bien traités ; verification : 3/3 avis bien traités
+
+[torch, 20 s chargement compris]

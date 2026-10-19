@@ -1,0 +1,11 @@
+id,demande,metier,hse
+m01,La pompe P-204 vibre fortement et fait un bruit de frottement depuis ce matin.,mecanique,non
+m02,"Odeur de gaz près de la vanne V-12, zone de dépotage ; le joint semble suinter.",mecanique,oui
+m03,Le capteur de pression PT-301 affiche une valeur figée à 0 bar.,instrumentation,non
+m04,Le disjoncteur de l'armoire A3 saute à chaque démarrage du convoyeur ; traces de brûlé sur un câble.,electrique,oui
+m05,"L'écran de supervision de la ligne 2 ne se met plus à jour, l'automate semble répondre.",automatisme,non
+m06,"Fuite d'huile hydraulique au pied de la presse, la flaque s'étend vers l'avaloir des eaux pluviales.",mecanique,oui
+m07,Demande d'étalonnage annuel des débitmètres du poste de mélange.,instrumentation,non
+m08,Le garde-corps de la passerelle du silo 3 est desserré et bouge quand on s'y appuie.,mecanique,oui
+m09,Plusieurs néons de l'atelier B clignotent.,electrique,non
+m10,"Après la mise à jour, l'automate de la station de traitement redémarre en boucle.",automatisme,non

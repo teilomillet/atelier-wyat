@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Teïlo Millet - teilomillet
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Mission 6 : réglez le garde-fou (voir missions/6_garde_fou_securite/MISSION.md)
+[garde]
+seuil = 0.7
+seuil_verifs = 0.4
+verifs = []
+
+[arnaques]
+seuil = 0.7

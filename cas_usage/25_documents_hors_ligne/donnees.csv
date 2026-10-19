@@ -1,0 +1,11 @@
+id,extrait,attendu
+d01,Communiqué de presse : inauguration du nouveau centre de formation le 12 novembre.,libre
+d02,Liste nominative des personnels d'astreinte avec numéros de téléphone personnels.,a_proteger
+d03,Compte rendu de la réunion de service : planning des congés de fin d'année et rappel sur le tri des déchets.,interne
+d04,"Rapport d'audit : trois vulnérabilités critiques non corrigées sur les pare-feu du site principal, avec adresses IP.",a_proteger
+d05,"Offre d'emploi : technicien de maintenance, poste basé à Toulouse.",libre
+d06,Procédure interne de réservation des véhicules de service.,interne
+d07,Plan des accès et des zones de surveillance vidéo du bâtiment C.,a_proteger
+d08,Note : le restaurant d'entreprise sera fermé vendredi pour travaux.,interne
+d09,"Contrat de maintenance avec le prestataire, montants et clauses de pénalités.",a_proteger
+d10,Rapport annuel publié sur le site institutionnel.,libre

@@ -1,0 +1,2 @@
+{"task": "choice", "query": "Quel service doit traiter ce message ?", "candidates": [{"id": "livraison", "text": "Livraison : colis en retard, perdu, suivi bloqué"}, {"id": "paiement", "text": "Paiement : carte refusée, double débit"}, {"id": "autre", "text": "Autre demande précise"}], "context": "Vous m'avez débité deux fois 54,90 €"}
+{"task": "noul", "query": "Ce mail contient-il des données personnelles sur une personne identifiable ?", "context": "La réunion budget est décalée à 15 h."}

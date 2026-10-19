@@ -1,0 +1,16 @@
+id,depense,attendu,jeu
+f01,"Déjeuner seul à Lyon, 18,50 €, sans alcool",conforme,ecriture
+f02,"Déjeuner seul à Lille, 34,00 €, aucun client présent",non_conforme,ecriture
+f03,"Dîner avec le client Arvel (2 personnes), 72 €, client noté sur le justificatif",conforme,ecriture
+f04,"Billet Paris–Marseille en 1re classe, voyage de jour, 2 h 40",non_conforme,ecriture
+f05,"Billet Paris–Nantes en 2de classe, 64 €",conforme,ecriture
+f06,"Hôtel à Bordeaux, 1 nuit, 98 € petit-déjeuner compris",conforme,ecriture
+f07,"Hôtel à Toulouse, 1 nuit, 189 €",non_conforme,ecriture
+f08,"Taxi de 23 h 40 de la gare à l'hôtel, 21 €",conforme,ecriture
+f09,"Taxi à 14 h entre deux rendez-vous dans Paris, 26 €, sans bagage",non_conforme,ecriture
+f10,"Déjeuner seul, 16 €, dont une bouteille de vin 9 €",non_conforme,ecriture
+f11,"Repas sans justificatif, 22 €",non_conforme,ecriture
+f12,"Parking de l'aéroport, 3 jours, 45 €, justificatif joint",conforme,ecriture
+f13,"Déjeuner seul à Nantes, 23,50 €, justificatif joint",conforme,verification
+f14,"Hôtel à Paris, 2 nuits, 310 € au total",non_conforme,verification
+f15,"Taxi à 15 h avec deux valises de matériel de démonstration, 34 €",conforme,verification

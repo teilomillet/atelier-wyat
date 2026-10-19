@@ -1,0 +1,16 @@
+Bonjour, ma commande n°48213 est arrivée cassée, je veux un  → humain    (choix retour, marge 0.13, attendu retour)
+Je n'arrive plus à me connecter à mon compte, le mot de pass → compte    (choix compte, marge 0.99, attendu compte)
+Vous m'avez débité deux fois 54,90 € pour la même commande   → paiement  (choix paiement, marge 0.89, attendu paiement)
+Où en est mon colis ? Le suivi n'a pas bougé depuis 5 jours  → livraison (choix livraison, marge 0.99, attendu livraison)
+Je voudrais renvoyer le pull, il est trop petit              → retour    (choix retour, marge 0.74, attendu retour)
+Comment changer l'adresse e-mail de mon compte ?             → compte    (choix compte, marge 0.93, attendu compte)
+Le livreur a laissé le colis devant la porte et il a disparu → livraison (choix livraison, marge 0.96, attendu livraison)
+Ma carte est refusée au moment de payer alors qu'elle marche → paiement  (choix paiement, marge 0.95, attendu paiement)
+Bonjour, est-ce que vous recrutez des vendeurs pour Noël ?   → autre     (choix autre, marge 1.00, attendu autre)
+Remboursement toujours pas reçu, retour déposé il y a 3 sema → humain    (choix retour, marge 0.33, attendu retour)
+j'ai été prélevé mais la commande n'apparaît pas dans mon co → humain    (choix paiement, marge 0.08, attendu paiement)
+Le colis indique livré mais je n'ai rien                     → livraison (choix livraison, marge 0.84, attendu livraison)
+
+12/12 choix justes ; 3 message(s) pour un humain → routage.csv
+
+[mlx, 4 s chargement compris]

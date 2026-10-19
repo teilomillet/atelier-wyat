@@ -1,0 +1,14 @@
+Antivirus : fichier EICAR de test détecté sur le poste → seul P2 (1.63) | wyat+règles P4 file normale (exercice)  attendu P4
+15 échecs de connexion puis une connexion réussie au c → seul P1 (2.18) | wyat+règles P1 astreinte (règle SOC/OT) attendu P1
+Un collaborateur signale avoir cliqué sur un lien d'ha → seul P1 (2.63) | wyat+règles P1 astreinte                attendu P2
+Le certificat TLS de l'intranet expire dans 45 jours   → seul P3 (1.40) | wyat+règles P3 file normale             attendu P3
+Chiffrement massif de fichiers détecté sur le serveur  → seul P2 (2.05) | wyat+règles P1 astreinte (règle SOC/OT) attendu P1
+Automate de la station de pompage : modification de co → seul P2 (2.12) | wyat+règles P1 astreinte (règle SOC/OT) attendu P1
+Scan de ports externe sur notre site web public, bloqu → seul P3 (1.46) | wyat+règles P3 file normale             attendu P4
+Macro Office lançant PowerShell avec une commande enco → seul P2 (1.82) | wyat+règles P2 analyste aujourd'hui     attendu P2
+Une clé USB inconnue a été branchée sur un poste de la → seul P3 (1.33) | wyat+règles P3 file normale             attendu P2
+Le journal d'un serveur de test n'a pas été collecté p → seul P3 (1.01) | wyat+règles P3 file normale             attendu P3
+
+Modèle seul : 4/10 exacts (MAE 0.254, astreintes P1 0/3) ; wyat + règles SOC/OT : 7/10 exacts (astreintes P1 3/3)
+
+[mlx, 4 s chargement compris]

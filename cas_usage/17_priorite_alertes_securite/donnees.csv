@@ -1,0 +1,11 @@
+id,alerte,attendu
+s01,Antivirus : fichier EICAR de test détecté sur le poste de l'équipe sécurité pendant l'exercice planifié,P4
+s02,"15 échecs de connexion puis une connexion réussie au compte d'un directeur depuis un pays inhabituel, à 3 h du matin",P1
+s03,"Un collaborateur signale avoir cliqué sur un lien d'hameçonnage, sans avoir saisi ses identifiants",P2
+s04,Le certificat TLS de l'intranet expire dans 45 jours,P3
+s05,"Chiffrement massif de fichiers détecté sur le serveur de fichiers de la comptabilité, extensions .locked",P1
+s06,Automate de la station de pompage : modification de consigne envoyée depuis un poste bureautique non autorisé,P1
+s07,"Scan de ports externe sur notre site web public, bloqué par le pare-feu",P4
+s08,Macro Office lançant PowerShell avec une commande encodée sur le poste d'une assistante,P2
+s09,"Une clé USB inconnue a été branchée sur un poste de la salle de contrôle, aucune exécution détectée",P2
+s10,Le journal d'un serveur de test n'a pas été collecté pendant 2 heures cette nuit,P3

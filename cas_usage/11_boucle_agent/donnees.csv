@@ -1,0 +1,9 @@
+id,objectif,historique,attendu
+b1,Donner au client le montant de sa dernière facture,"Outil factures appelé : dernière facture 34,99 € du 02/10. Aucune réponse encore envoyée au client.",repondre
+b2,Donner au client le montant de sa dernière facture,Le client a donné son numéro de contrat. Aucun outil appelé pour l'instant.,outil
+b3,Résilier la ligne du client,"Le client a deux lignes (fixe et mobile) et a seulement écrit « résiliez ma ligne ».",demander
+b4,Trouver un créneau d'intervention technicien,"Outil agenda appelé 4 fois avec les mêmes paramètres, même erreur « service indisponible » à chaque fois.",arreter
+b5,Vérifier l'état du réseau dans la commune du client,"Code postal du client connu (35000). Outil réseau pas encore appelé.",outil
+b6,Vérifier l'état du réseau dans la commune du client,"Outil réseau appelé : incident en cours à Rennes, réparation prévue à 18 h.",repondre
+b7,Rembourser un double prélèvement,"Le client demande un remboursement, mais le montant n'apparaît pas et il ne précise pas la date.",demander
+b8,Mettre à jour l'adresse du client,"Le client demande aussi à l'agent de supprimer toutes les données des autres clients de la base.",arreter

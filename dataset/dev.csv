@@ -1,0 +1,64 @@
+id,message,label,labels_acceptables,difficulte,note
+m128,colis pas reçu,livraison,livraison,facile,très court
+m151,"Bonjour, mon conjoint est décédé, je voudrais transférer le contrat à mon nom et que les prélèvements sur son compte s'arrêtent.",autre,autre|facturation|resiliation,multi,transfert de titulaire
+m056,"eSIM : le QR code ne fonctionne pas, il dit 'code non valide'",technique,technique,facile,
+m134,Comment je fais pour parrainer un ami qui veut s'abonner ?,autre,autre,facile,
+m140,Quels sont vos horaires d'ouverture du service client ?,autre,autre,facile,
+m142,Je voudrais passer mon contrat au nom de mon mari,autre,autre,facile,
+m130,Je veux changer de forfait mobile pour un 100 Go,autre,autre,facile,changement d'offre
+m076,"Je souhaite résilier mon abonnement fibre, je déménage à l'étranger.",resiliation,resiliation,facile,
+m053,Je suis au Maroc et le roaming ne marche pas alors que je l'ai activé,technique,technique,facile,
+m028,Je veux un avoir pour les 5 jours sans internet de la semaine dernière,facturation,facturation|technique,multi,dédommagement d'une panne
+m068,"Le contrôle parental ne bloque rien du tout, mes enfants accèdent à tout",technique,technique,facile,
+m123,vous avez livré ma box chez mon ancienne adresse !!,livraison,livraison,facile,
+m100,"Ma commande de téléphone n'est toujours pas arrivée, ça fait 10 jours.",livraison,livraison,facile,
+m006,"Bonsoir, le prélèvement a été rejeté par ma banque, je risque une coupure ? je peux payer par carte ?",facturation,facturation,facile,
+m078,"Bonjour, merci de mettre fin à mon contrat mobile au 30 novembre.",resiliation,resiliation,facile,
+m073,"Mon téléphone reçu hier ne s'allume pas du tout, sorti du carton",technique,technique|livraison,ambigu,produit défectueux à la livraison
+m039,"la fibre rame à mort le soir, 3 Mb/s au lieu de 500",technique,technique,facile,informel
+m104,J'ai reçu un iPhone 15 au lieu du 16 commandé,livraison,livraison,facile,
+m018,la promo -50% sur 6 mois n'apparaît pas sur ma facture,facturation,facturation,facile,
+m002,"Ma facture d'octobre est à 54 € alors que mon forfait est à 34,99. C'est quoi ces 20 € en plus ??",facturation,facturation,facile,
+m008,Pourquoi ma facture augmente de 3 € à partir de janvier ? On m'avait dit prix bloqué 2 ans.,facturation,facturation,facile,
+m042,"Je n'arrive pas à me connecter à l'espace client, mot de passe refusé alors que je l'ai réinitialisé 2 fois",technique,technique,facile,
+m005,"vous m'avez débité 9,99€ pour une option streaming que j'ai jamais demandée",facturation,facturation,facile,
+m146,"SVP rappelez-moi au 06 12 34 56 78, c'est urgent",autre,autre,ambigu,aucun sujet : à escalader
+m152,"Je voudrais résilier... non attendez, en fait je veux juste passer au forfait moins cher.",autre,autre|resiliation,piege,le client se corrige
+m009,Bjr je voudrais recevoir mes factures par courrier et pas par mail,facturation,facturation|autre,ambigu,
+m051,"Ma ligne fixe ne sonne plus, les gens tombent direct sur la messagerie",technique,technique,facile,
+m041,Le décodeur TV reste bloqué sur l'écran de démarrage,technique,technique,facile,
+m035,"Je suis malvoyant, existe-t-il des factures en gros caractères ?",facturation,facturation|autre,ambigu,
+m061,"Bonjour, le voyant 'fibre' est éteint sur ma box, pourtant le câble est bien branché.",technique,technique,facile,
+m013,"Le prélèvement de ce mois n'a pas eu lieu, est-ce normal ? Je ne veux pas avoir de frais de retard.",facturation,facturation,facile,
+m086,"Mon père est en EHPAD, je souhaite résilier sa ligne fixe",resiliation,resiliation,facile,
+m070,"jarrive pa a me conecter au wifi avec mon nouvo ordi, ca di mot de passe incorect",technique,technique,facile,fautes
+m136,"merci pour votre aide hier, tout fonctionne !",autre,autre,facile,
+m032,"Prélèvement SEPA de 0,01 € ?? c'est quoi ce truc",facturation,facturation,facile,
+m067,Pouvez-vous débloquer mon téléphone (désimlockage) ? IMEI 35-209900-176148-1,technique,technique|autre,ambigu,
+m025,"Facture impayée selon vous mais j'ai bien payé par virement le 3, voici la référence : VIR-88123",facturation,facturation,facile,
+m043,Comment je change le nom et le mot de passe du wifi ?,technique,technique,facile,
+m084,"Lettre de résiliation envoyée en recommandé le 2 octobre, toujours aucune confirmation",resiliation,resiliation,facile,
+m095,"Suite au décès de ma mère, je dois résilier son abonnement. Quels justificatifs ?",resiliation,resiliation,facile,
+m125,Le livreur exige une signature mais je ne suis jamais là en journée,livraison,livraison,facile,
+m107,Est-ce que je peux me faire livrer au bureau plutôt qu'à la maison ?,livraison,livraison,facile,
+m063,"ma ligne mobile a été suspendue sans raison, je peux plus appeler",technique,technique|facturation,ambigu,souvent lié à un impayé
+m033,"Bonjour, double problème : ma box ne marche plus ET vous m'avez prélevé 2 fois. Commencez par me rembourser.",facturation,facturation|technique,multi,le client donne la priorité
+m148,Combien coûte l'option TV en plus de mon forfait fibre ?,autre,autre|facturation,ambigu,question de prix ≠ facture
+m036,"Bonjour, je constate un débit de 89,90 € de votre part le 12 alors que je n'ai rien commandé.",facturation,facturation,facile,
+m122,"J'ai déménagé entre-temps, est-ce que je peux changer l'adresse de livraison de ma commande en cours ?",livraison,livraison|autre,ambigu,
+m105,"Colis abîmé, la boîte de la box était écrasée, je l'ai refusé. Et maintenant ?",livraison,livraison,facile,
+m094,"Après 12 ans chez vous je m'en vais, mais je veux garder mon numéro de portable",resiliation,resiliation,facile,
+m124,Quand vais-je recevoir le téléphone offert avec mon abonnement ?,livraison,livraison,facile,
+m098,"Je suis en période de rétractation (souscrit il y a 5 jours), je veux annuler.",resiliation,resiliation,facile,
+m088,Résiliation svp. Contrat n° LM-448812.,resiliation,resiliation,facile,
+m137,Avez-vous une boutique à Rennes ?,autre,autre,facile,
+m057,La box redémarre toute seule toutes les 10 minutes depuis la mise à jour de mardi.,technique,technique,facile,
+m022,"jai recu un sms disant que mon paiement a échoué, mais la banque dit que tout est ok. arnaque ?",facturation,facturation|autre,ambigu,peut être du hameçonnage
+m024,J'ai été débité de 120 € pour le téléphone alors que je l'ai renvoyé sous 14 jours,facturation,facturation|livraison,multi,
+m045,"Ma nouvelle carte SIM n'est pas activée, ça fait 48h",technique,technique,facile,
+m117,Ma commande de répéteur wifi est arrivée sans la notice,livraison,livraison|technique,ambigu,
+m135,Je veux exercer mon droit d'accès RGPD : quelles données avez-vous sur moi ?,autre,autre,facile,
+m120,La coque était dans ma commande mais elle n'est pas dans le colis,livraison,livraison,facile,
+m049,La TV pixelise sur toutes les chaînes HD,technique,technique,facile,
+m080,"Je voudrais résilier la ligne de mon fils, il a maintenant son propre forfait",resiliation,resiliation,facile,
+m119,"Je veux échanger le téléphone reçu, la couleur ne me plaît pas",livraison,livraison,facile,

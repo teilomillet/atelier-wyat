@@ -1,0 +1,19 @@
+Déjeuner seul à Lyon, 18,50 €, sans alcool               [repas_seul] → conforme                                ✓
+Déjeuner seul à Lille, 34,00 €, aucun client présent     [repas_seul] → non_conforme 34 € > plafond 25 €; sans justificatif ✓
+Dîner avec le client Arvel (2 personnes), 72 €, client n [repas_client] → conforme                                ✓
+Billet Paris–Marseille en 1re classe, voyage de jour, 2  [train] → non_conforme 1re classe de jour         ✓
+Billet Paris–Nantes en 2de classe, 64 €                  [train] → conforme                                ✓
+Hôtel à Bordeaux, 1 nuit, 98 € petit-déjeuner compris    [hotel] → conforme                                ✓
+Hôtel à Toulouse, 1 nuit, 189 €                          [hotel] → non_conforme 189 € > plafond 130 €      ✓
+Taxi de 23 h 40 de la gare à l'hôtel, 21 €               [taxi] → conforme                                ✓
+Taxi à 14 h entre deux rendez-vous dans Paris, 26 €, san [taxi] → non_conforme taxi non justifié          ✓
+Déjeuner seul, 16 €, dont une bouteille de vin 9 €       [repas_seul] → non_conforme alcool sans client         ✓
+Repas sans justificatif, 22 €                            [repas_seul] → non_conforme sans justificatif          ✓
+Parking de l'aéroport, 3 jours, 45 €, justificatif joint [autre] → conforme                                ✓
+Déjeuner seul à Nantes, 23,50 €, justificatif joint      [repas_seul] → conforme                                ✓
+Hôtel à Paris, 2 nuits, 310 € au total                   [hotel] → non_conforme 155 € > plafond 130 €      ✓
+Taxi à 15 h avec deux valises de matériel de démonstrati [taxi] → conforme                                ✓
+
+ecriture : 12/12 justes ; verification : 3/3 justes
+
+[mlx, 7 s chargement compris]

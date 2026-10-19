@@ -1,0 +1,12 @@
+g1 pertinent 0.99 (oui, attendu oui) · appuyée 0.98 (oui, attendu oui) → afficher la réponse
+g2 pertinent 0.99 (oui, attendu oui) · appuyée 0.01 (non, attendu non) → ne pas afficher : « je ne sais pas, voici le lien »
+g3 pertinent 0.04 (non, attendu non) · appuyée 0.39 (non, attendu non) → ne pas afficher : « je ne sais pas, voici le lien »
+g4 pertinent 0.98 (oui, attendu oui) · appuyée 0.99 (oui, attendu oui) → afficher la réponse
+g5 pertinent 0.99 (oui, attendu oui) · appuyée 0.97 (oui, attendu oui) → afficher la réponse
+g6 pertinent 0.99 (oui, attendu non) · appuyée 0.72 (oui, attendu non) → afficher la réponse
+g7 pertinent 0.90 (oui, attendu oui) · appuyée 0.92 (oui, attendu oui) → afficher la réponse
+g8 pertinent 0.90 (oui, attendu oui) · appuyée 0.96 (oui, attendu non) → afficher la réponse
+
+passage pertinent : 7/8 justes ; réponse appuyée par la source : 6/8 justes
+
+[mlx, 4 s chargement compris]
